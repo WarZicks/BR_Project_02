@@ -183,7 +183,8 @@ MonoBehaviour:
   m_PlayerSpawnMethod: 0
   m_OfflineScene: Lobby_Network
   m_OnlineScene: 
-  m_SpawnPrefabs: []
+  m_SpawnPrefabs:
+  - {fileID: 1886438921685780, guid: 20afc71065ae249498d7b7312565e5d2, type: 2}
   m_CustomConfig: 0
   m_MaxConnections: 4
   m_ConnectionConfig:
@@ -242,8 +243,8 @@ MonoBehaviour:
   m_ShowLobbyGUI: 1
   m_MaxPlayers: 5
   m_MaxPlayersPerConnection: 1
-  m_MinPlayers: 1
-  m_LobbyPlayerPrefab: {fileID: 114610146904873358, guid: 8b987c55d0194f34eb36937bc174634e,
+  m_MinPlayers: 5
+  m_LobbyPlayerPrefab: {fileID: 114760350258420544, guid: 8ebe0f6a0fa5f4b47a66c4d49f54e1a9,
     type: 2}
   m_GamePlayerPrefab: {fileID: 1886438921685780, guid: 20afc71065ae249498d7b7312565e5d2,
     type: 2}
