@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/BR_Level.unity
     guid: f01cb48311a111b41aba21b5545f2063
+  - enabled: 1
+    path: Assets/Scenes/ClaraLicorne.unity
+    guid: 09d81607c4de66c4eaab7a1d9231e8de
   m_configObjects: {}
