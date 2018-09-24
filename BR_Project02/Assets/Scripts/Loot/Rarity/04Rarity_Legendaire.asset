@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6653540076887dd4e82c8e0324b37ad3, type: 3}
+  m_Name: 04Rarity_Legendaire
+  m_EditorClassIdentifier: 
+  rarityName: Legend
+  rarityColor: {r: 0.8897059, g: 0.6785587, b: 0.12429716, a: 1}
+  rarityValue: 800
+  rarityDropRate: 10
+  rarityItems:
+  - {fileID: 11400000, guid: 6e1512dccbb6879469b6b9ad0099e57f, type: 2}
+  - {fileID: 11400000, guid: 2d39a00f3a87d9c46900df2766b97e24, type: 2}

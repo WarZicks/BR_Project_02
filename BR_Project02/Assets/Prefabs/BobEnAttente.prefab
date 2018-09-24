@@ -9,18 +9,18 @@ Prefab:
     m_Modifications: []
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 0}
-  m_RootGameObject: {fileID: 1906553197035286}
+  m_RootGameObject: {fileID: 1254077973608392}
   m_IsPrefabParent: 1
---- !u!1 &1906553197035286
+--- !u!1 &1254077973608392
 GameObject:
   m_ObjectHideFlags: 0
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
   serializedVersion: 5
   m_Component:
-  - component: {fileID: 4252551605222054}
-  - component: {fileID: 114421927948557124}
-  - component: {fileID: 114760350258420544}
+  - component: {fileID: 4355176087092702}
+  - component: {fileID: 114078593693283026}
+  - component: {fileID: 114662421477827736}
   m_Layer: 0
   m_Name: BobEnAttente
   m_TagString: Untagged
@@ -28,12 +28,12 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &4252551605222054
+--- !u!4 &4355176087092702
 Transform:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1906553197035286}
+  m_GameObject: {fileID: 1254077973608392}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
@@ -41,12 +41,12 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &114421927948557124
+--- !u!114 &114078593693283026
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1906553197035286}
+  m_GameObject: {fileID: 1254077973608392}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 372142912, guid: 870353891bb340e2b2a9c8707e7419ba, type: 3}
@@ -55,30 +55,30 @@ MonoBehaviour:
   m_SceneId:
     m_Value: 0
   m_AssetId:
-    i0: 142
-    i1: 190
-    i2: 15
-    i3: 106
-    i4: 15
-    i5: 165
-    i6: 244
-    i7: 180
-    i8: 122
-    i9: 102
-    i10: 196
-    i11: 212
-    i12: 159
-    i13: 84
-    i14: 225
-    i15: 169
+    i0: 234
+    i1: 94
+    i2: 172
+    i3: 204
+    i4: 240
+    i5: 120
+    i6: 242
+    i7: 36
+    i8: 121
+    i9: 24
+    i10: 197
+    i11: 191
+    i12: 69
+    i13: 74
+    i14: 65
+    i15: 130
   m_ServerOnly: 0
-  m_LocalPlayerAuthority: 0
---- !u!114 &114760350258420544
+  m_LocalPlayerAuthority: 1
+--- !u!114 &114662421477827736
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1906553197035286}
+  m_GameObject: {fileID: 1254077973608392}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 246975512, guid: 870353891bb340e2b2a9c8707e7419ba, type: 3}
