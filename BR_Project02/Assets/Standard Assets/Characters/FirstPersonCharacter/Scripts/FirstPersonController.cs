@@ -110,9 +110,9 @@ namespace UnityStandardAssets.Characters.FirstPerson
 
 
             // Shoot on opponent
+            Ray ray = Camera.main.ViewportPointToRay(new Vector3(0.5F, 0.5F, 0));
             if (Input.GetMouseButtonDown(0))
             {
-                Ray ray = Camera.main.ViewportPointToRay(new Vector3(0.5F, 0.5F, 0));
                 RaycastHit hit;
                 if (Physics.Raycast(ray, out hit, RayDistance))
                 {
