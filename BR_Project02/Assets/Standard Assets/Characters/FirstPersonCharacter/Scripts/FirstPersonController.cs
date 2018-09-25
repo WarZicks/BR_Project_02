@@ -42,8 +42,9 @@ namespace UnityStandardAssets.Characters.FirstPerson
         private float m_NextStep;
         private bool m_Jumping;
         private AudioSource m_AudioSource;
+        public AudioListener myAL;
 
-        private int MaxPlayerHP = 100;
+        public  int MaxPlayerHP = 100;
         [SyncVar (hook = "UpdateHP")] public int PlayerHP;
         public int WeaponDamage = 20;
         public float RayDistance;
@@ -68,6 +69,10 @@ namespace UnityStandardAssets.Characters.FirstPerson
             PlayerHP = MaxPlayerHP;
         }
 
+        public override void OnStartLocalPlayer()
+        {
+            myAL.enabled = true;
+        }
 
         // Update is called once per frame
         private void Update()
