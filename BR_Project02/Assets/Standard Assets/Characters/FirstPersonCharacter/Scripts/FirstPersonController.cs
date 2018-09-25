@@ -107,7 +107,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
                 {
                     if (hit.collider.CompareTag("Opponent"))
                     {
-                        CmdHitOpponent(hit.collider.GetComponent<FirstPersonController>());
+                        CmdHitOpponent(hit.collider.gameObject);
                     }
                 }
 
@@ -116,9 +116,9 @@ namespace UnityStandardAssets.Characters.FirstPerson
 
 
         [Command]
-        public void CmdHitOpponent(FirstPersonController opponent)
+        public void CmdHitOpponent(GameObject opponent)
         {
-            opponent.TakeDamage();
+            opponent.GetComponent<FirstPersonController>().TakeDamage();
         }
 
         public void UpdateHP(int myNewHp)
