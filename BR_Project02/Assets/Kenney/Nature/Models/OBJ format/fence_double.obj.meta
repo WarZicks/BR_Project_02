@@ -9,6 +9,7 @@ ModelImporter:
     400002: //RootNode
     2100000: natureKit-wood
     2100002: natureKit-_defaultMat
+    2100004: fence_doubleMat
     2300000: fence_double
     3300000: fence_double
     4300000: fence_double

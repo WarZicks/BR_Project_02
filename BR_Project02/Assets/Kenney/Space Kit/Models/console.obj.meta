@@ -9,6 +9,7 @@ ModelImporter:
     400002: //RootNode
     2100000: _defaultMat
     2100002: glass
+    2100004: consoleMat
     2300000: console
     3300000: console
     4300000: console

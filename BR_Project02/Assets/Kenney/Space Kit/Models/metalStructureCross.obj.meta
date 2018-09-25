@@ -10,6 +10,7 @@ ModelImporter:
     2100000: metal
     2100002: pipe
     2100004: _defaultMat
+    2100006: metalStructureCrossMat
     2300000: metalStructureCross
     3300000: metalStructureCross
     4300000: metalStructureCross

@@ -11,6 +11,7 @@ ModelImporter:
     2100002: metal
     2100004: net
     2100006: light
+    2100008: frameLowTileMat
     2300000: frameLowTile
     3300000: frameLowTile
     4300000: frameLowTile

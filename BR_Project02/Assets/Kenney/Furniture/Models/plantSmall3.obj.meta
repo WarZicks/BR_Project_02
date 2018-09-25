@@ -9,6 +9,7 @@ ModelImporter:
     400002: //RootNode
     2100000: wood
     2100002: plant
+    2100004: plantSmall3Mat
     2300000: plantSmall3
     3300000: plantSmall3
     4300000: plantSmall3

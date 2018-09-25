@@ -9,6 +9,7 @@ ModelImporter:
     400002: //RootNode
     2100000: metal
     2100002: _defaultMat
+    2100004: metalStructureBottomMat
     2300000: metalStructureBottom
     3300000: metalStructureBottom
     4300000: metalStructureBottom

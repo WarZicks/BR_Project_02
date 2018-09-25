@@ -8,6 +8,7 @@ ModelImporter:
     400000: floorCornerRound
     400002: //RootNode
     2100000: wood
+    2100002: floorCornerRoundMat
     2300000: floorCornerRound
     3300000: floorCornerRound
     4300000: floorCornerRound

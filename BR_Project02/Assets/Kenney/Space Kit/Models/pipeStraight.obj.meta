@@ -8,6 +8,7 @@ ModelImporter:
     400000: pipeStraight
     400002: //RootNode
     2100000: pipe
+    2100002: pipeStraightMat
     2300000: pipeStraight
     3300000: pipeStraight
     4300000: pipeStraight

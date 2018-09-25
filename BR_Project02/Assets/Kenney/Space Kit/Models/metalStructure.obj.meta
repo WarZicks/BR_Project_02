@@ -10,6 +10,7 @@ ModelImporter:
     2100000: metal
     2100002: pipe
     2100004: _defaultMat
+    2100006: metalStructureMat
     2300000: metalStructure
     3300000: metalStructure
     4300000: metalStructure

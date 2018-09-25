@@ -10,6 +10,7 @@ ModelImporter:
     2100000: _defaultMat
     2100002: wood
     2100004: metalDark
+    2100006: wallDoorwayMat
     2300000: wallDoorway
     3300000: wallDoorway
     4300000: wallDoorway

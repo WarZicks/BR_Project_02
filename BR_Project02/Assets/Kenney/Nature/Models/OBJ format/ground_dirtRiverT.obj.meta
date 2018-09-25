@@ -10,6 +10,7 @@ ModelImporter:
     2100000: natureKit-wood
     2100002: natureKit-leavesGreen
     2100004: natureKit-water
+    2100006: ground_dirtRiverTMat
     2300000: ground_dirtRiverT
     3300000: ground_dirtRiverT
     4300000: ground_dirtRiverT

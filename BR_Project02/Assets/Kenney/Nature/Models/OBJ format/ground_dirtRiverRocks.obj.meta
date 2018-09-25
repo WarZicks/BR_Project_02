@@ -11,6 +11,7 @@ ModelImporter:
     2100002: natureKit-stone
     2100004: natureKit-leavesGreen
     2100006: natureKit-water
+    2100008: ground_dirtRiverRocksMat
     2300000: ground_dirtRiverRocks
     3300000: ground_dirtRiverRocks
     4300000: ground_dirtRiverRocks

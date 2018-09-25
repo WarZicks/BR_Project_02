@@ -9,6 +9,7 @@ ModelImporter:
     400002: //RootNode
     2100000: metal
     2100002: lamp
+    2100004: lampRoundFloorMat
     2300000: lampRoundFloor
     3300000: lampRoundFloor
     4300000: lampRoundFloor

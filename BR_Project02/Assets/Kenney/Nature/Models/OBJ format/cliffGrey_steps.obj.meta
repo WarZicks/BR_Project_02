@@ -9,6 +9,7 @@ ModelImporter:
     400002: //RootNode
     2100000: natureKit-leavesGreen
     2100002: natureKit-stone
+    2100004: cliffGrey_stepsMat
     2300000: cliffGrey_steps
     3300000: cliffGrey_steps
     4300000: cliffGrey_steps

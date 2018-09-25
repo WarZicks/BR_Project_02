@@ -12,6 +12,8 @@ ModelImporter:
     2100000: metalLight
     2100002: metalMedium
     2100004: metalDark
+    2100006: dryerMat
+    2100008: dryerDoorMat
     2300000: dryer
     2300002: dryerDoor
     3300000: dryer

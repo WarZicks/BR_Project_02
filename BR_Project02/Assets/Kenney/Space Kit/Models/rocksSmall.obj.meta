@@ -9,6 +9,7 @@ ModelImporter:
     400002: //RootNode
     2100000: rock
     2100002: _defaultMat
+    2100004: rocksSmallMat
     2300000: rocksSmall
     3300000: rocksSmall
     4300000: rocksSmall

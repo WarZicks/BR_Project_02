@@ -9,6 +9,7 @@ ModelImporter:
     400002: //RootNode
     2100000: metalMedium
     2100002: wood
+    2100004: coatRackMat
     2300000: coatRack
     3300000: coatRack
     4300000: coatRack

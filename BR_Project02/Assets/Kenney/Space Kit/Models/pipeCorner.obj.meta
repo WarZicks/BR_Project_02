@@ -8,6 +8,7 @@ ModelImporter:
     400000: pipeCorner
     400002: //RootNode
     2100000: pipe
+    2100002: pipeCornerMat
     2300000: pipeCorner
     3300000: pipeCorner
     4300000: pipeCorner

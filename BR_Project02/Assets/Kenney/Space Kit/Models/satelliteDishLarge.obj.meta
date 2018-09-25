@@ -10,6 +10,7 @@ ModelImporter:
     2100000: _defaultMat
     2100002: metal
     2100004: glass
+    2100006: satelliteDishLargeMat
     2300000: satelliteDishLarge
     3300000: satelliteDishLarge
     4300000: satelliteDishLarge

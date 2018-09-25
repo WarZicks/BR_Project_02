@@ -13,6 +13,8 @@ ModelImporter:
     2100002: glass
     2100004: metal
     2100006: metalDark
+    2100008: doorFridge_2Mat
+    2100010: kitchenFridgeSmallMat
     2300000: doorFridge_2
     2300002: kitchenFridgeSmall
     3300000: doorFridge_2

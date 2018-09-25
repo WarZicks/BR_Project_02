@@ -10,6 +10,7 @@ ModelImporter:
     2100000: metalMedium
     2100002: wood
     2100004: metal
+    2100006: radioMat
     2300000: radio
     3300000: radio
     4300000: radio

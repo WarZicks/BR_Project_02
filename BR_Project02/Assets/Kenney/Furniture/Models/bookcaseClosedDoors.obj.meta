@@ -13,6 +13,9 @@ ModelImporter:
     400006: doorRight
     2100000: wood
     2100002: metal
+    2100004: bookcaseClosedDoorsMat
+    2100006: doorLeftMat
+    2100008: doorRightMat
     2300000: bookcaseClosedDoors
     2300002: doorLeft
     2300004: doorRight

@@ -11,6 +11,8 @@ ModelImporter:
     400004: //RootNode
     2100000: carpet
     2100002: metalMedium
+    2100004: chair_1Mat
+    2100006: chairDeskMat
     2300000: chair_1
     2300002: chairDesk
     3300000: chair_1

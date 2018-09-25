@@ -9,6 +9,7 @@ ModelImporter:
     400002: //RootNode
     2100000: _defaultMat
     2100002: metal
+    2100004: frameLowMat
     2300000: frameLow
     3300000: frameLow
     4300000: frameLow

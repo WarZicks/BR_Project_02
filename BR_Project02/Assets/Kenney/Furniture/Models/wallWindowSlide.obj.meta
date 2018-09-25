@@ -15,6 +15,9 @@ ModelImporter:
     2100002: metalDark
     2100004: _defaultMat
     2100006: glass
+    2100008: wallWindowSlideMat
+    2100010: windowBottomMat
+    2100012: windowTopMat
     2300000: wallWindowSlide
     2300002: windowBottom
     2300004: windowTop

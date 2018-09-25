@@ -10,6 +10,7 @@ ModelImporter:
     2100000: _defaultMat
     2100002: glass
     2100004: portal
+    2100006: consoleScreenMat
     2300000: consoleScreen
     3300000: consoleScreen
     4300000: consoleScreen

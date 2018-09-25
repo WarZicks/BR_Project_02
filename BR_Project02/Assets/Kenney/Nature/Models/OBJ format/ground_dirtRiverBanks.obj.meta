@@ -11,6 +11,7 @@ ModelImporter:
     2100002: natureKit-leavesGreen
     2100004: natureKit-_defaultMat
     2100006: natureKit-water
+    2100008: ground_dirtRiverBanksMat
     2300000: ground_dirtRiverBanks
     3300000: ground_dirtRiverBanks
     4300000: ground_dirtRiverBanks

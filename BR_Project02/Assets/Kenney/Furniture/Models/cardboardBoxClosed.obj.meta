@@ -9,6 +9,7 @@ ModelImporter:
     400002: //RootNode
     2100000: wood
     2100002: woodDark
+    2100004: cardboardBoxClosedMat
     2300000: cardboardBoxClosed
     3300000: cardboardBoxClosed
     4300000: cardboardBoxClosed

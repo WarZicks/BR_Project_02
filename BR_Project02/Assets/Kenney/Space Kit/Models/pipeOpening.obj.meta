@@ -8,6 +8,7 @@ ModelImporter:
     400000: pipeOpening
     400002: //RootNode
     2100000: pipe
+    2100002: pipeOpeningMat
     2300000: pipeOpening
     3300000: pipeOpening
     4300000: pipeOpening

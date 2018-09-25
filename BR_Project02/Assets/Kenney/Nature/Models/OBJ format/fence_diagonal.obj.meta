@@ -8,6 +8,7 @@ ModelImporter:
     400000: fence_diagonal
     400002: //RootNode
     2100000: natureKit-wood
+    2100002: fence_diagonalMat
     2300000: fence_diagonal
     3300000: fence_diagonal
     4300000: fence_diagonal

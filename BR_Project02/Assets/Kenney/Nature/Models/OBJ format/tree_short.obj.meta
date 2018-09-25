@@ -9,6 +9,7 @@ ModelImporter:
     400002: //RootNode
     2100000: natureKit-wood
     2100002: natureKit-leavesGreen
+    2100004: tree_shortMat
     2300000: tree_short
     3300000: tree_short
     4300000: tree_short

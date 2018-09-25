@@ -14,6 +14,10 @@ ModelImporter:
     400006: Mesh4_Group1_Model
     400008: //RootNode
     2100000: Stone
+    2100002: Mesh1_Group1_ModelMat
+    2100004: Mesh2_Group1_ModelMat
+    2100006: Mesh3_Group1_ModelMat
+    2100008: Mesh4_Group1_ModelMat
     2300000: Mesh1_Group1_Model
     2300002: Mesh2_Group1_Model
     2300004: Mesh3_Group1_Model

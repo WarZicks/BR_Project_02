@@ -10,6 +10,7 @@ ModelImporter:
     2100000: glass
     2100002: _defaultMat
     2100004: alienPlant
+    2100006: laserSabelMat
     2300000: laserSabel
     3300000: laserSabel
     4300000: laserSabel

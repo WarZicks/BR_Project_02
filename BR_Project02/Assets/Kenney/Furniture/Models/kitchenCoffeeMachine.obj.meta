@@ -12,6 +12,8 @@ ModelImporter:
     2100000: metalMedium
     2100002: metal
     2100004: carpetWhite
+    2100006: kitchenCoffeeMachineMat
+    2100008: mugMat
     2300000: kitchenCoffeeMachine
     2300002: mug
     3300000: kitchenCoffeeMachine

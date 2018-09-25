@@ -8,6 +8,7 @@ ModelImporter:
     400000: metalFenceDouble
     400002: //RootNode
     2100000: _defaultMat
+    2100002: metalFenceDoubleMat
     2300000: metalFenceDouble
     3300000: metalFenceDouble
     4300000: metalFenceDouble

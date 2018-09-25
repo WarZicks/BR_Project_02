@@ -9,6 +9,7 @@ ModelImporter:
     400002: //RootNode
     2100000: wood
     2100002: carpet
+    2100004: benchCushionMat
     2300000: benchCushion
     3300000: benchCushion
     4300000: benchCushion

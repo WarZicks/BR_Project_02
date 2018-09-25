@@ -11,6 +11,8 @@ ModelImporter:
     400004: //RootNode
     2100000: wood
     2100002: metal
+    2100004: door_3Mat
+    2100006: doorwayMat
     2300000: door_3
     2300002: doorway
     3300000: door_3

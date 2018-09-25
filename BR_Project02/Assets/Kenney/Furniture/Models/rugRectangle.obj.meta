@@ -9,6 +9,7 @@ ModelImporter:
     400002: //RootNode
     2100000: carpet
     2100002: carpetDarker
+    2100004: rugRectangleMat
     2300000: rugRectangle
     3300000: rugRectangle
     4300000: rugRectangle

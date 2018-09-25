@@ -11,6 +11,7 @@ ModelImporter:
     2100002: metal
     2100004: _defaultMat
     2100006: glass
+    2100008: stationMat
     2300000: station
     3300000: station
     4300000: station

@@ -14,6 +14,8 @@ ModelImporter:
     2100004: wood
     2100006: metalDark
     2100008: carpetWhite
+    2100010: door_10Mat
+    2100012: kitchenStoveMat
     2300000: door_10
     2300002: kitchenStove
     3300000: door_10

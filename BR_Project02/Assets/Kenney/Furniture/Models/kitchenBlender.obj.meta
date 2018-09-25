@@ -14,6 +14,9 @@ ModelImporter:
     2100000: glass
     2100002: metalMedium
     2100004: metal
+    2100006: blenderCupMat
+    2100008: blenderTopMat
+    2100010: kitchenBlenderMat
     2300000: blenderCup
     2300002: blenderTop
     2300004: kitchenBlender

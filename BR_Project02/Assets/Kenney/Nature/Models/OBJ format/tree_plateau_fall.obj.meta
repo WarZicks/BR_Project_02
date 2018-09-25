@@ -9,6 +9,7 @@ ModelImporter:
     400002: //RootNode
     2100000: natureKit-leavesFall
     2100002: natureKit-wood
+    2100004: tree_plateau_fallMat
     2300000: tree_plateau_fall
     3300000: tree_plateau_fall
     4300000: tree_plateau_fall

@@ -17,6 +17,9 @@ ModelImporter:
     2100006: _defaultMat
     2100008: metalMedium
     2100010: metalDark
+    2100012: dryerDoor_1Mat
+    2100014: washerDoor_1Mat
+    2100016: washerDryerStackedMat
     2300000: dryerDoor_1
     2300002: washerDoor_1
     2300004: washerDryerStacked

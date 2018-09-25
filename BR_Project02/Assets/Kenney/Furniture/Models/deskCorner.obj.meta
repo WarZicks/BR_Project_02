@@ -11,6 +11,8 @@ ModelImporter:
     400004: drawer_3
     2100000: wood
     2100002: metal
+    2100004: deskCornerMat
+    2100006: drawer_3Mat
     2300000: deskCorner
     2300002: drawer_3
     3300000: deskCorner

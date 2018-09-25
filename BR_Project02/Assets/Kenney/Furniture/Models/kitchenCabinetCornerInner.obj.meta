@@ -9,6 +9,7 @@ ModelImporter:
     400002: //RootNode
     2100000: wood
     2100002: metal
+    2100004: kitchenCabinetCornerInnerMat
     2300000: kitchenCabinetCornerInner
     3300000: kitchenCabinetCornerInner
     4300000: kitchenCabinetCornerInner

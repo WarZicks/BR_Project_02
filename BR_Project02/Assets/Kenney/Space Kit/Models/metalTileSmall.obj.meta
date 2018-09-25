@@ -10,6 +10,7 @@ ModelImporter:
     2100000: metal
     2100002: _defaultMat
     2100004: net
+    2100006: metalTileSmallMat
     2300000: metalTileSmall
     3300000: metalTileSmall
     4300000: metalTileSmall

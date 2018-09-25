@@ -9,6 +9,7 @@ ModelImporter:
     400002: //RootNode
     2100000: wood
     2100002: carpet
+    2100004: tableClothMat
     2300000: tableCloth
     3300000: tableCloth
     4300000: tableCloth

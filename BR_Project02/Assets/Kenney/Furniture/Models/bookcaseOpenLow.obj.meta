@@ -8,6 +8,7 @@ ModelImporter:
     400000: bookcaseOpenLow
     400002: //RootNode
     2100000: wood
+    2100002: bookcaseOpenLowMat
     2300000: bookcaseOpenLow
     3300000: bookcaseOpenLow
     4300000: bookcaseOpenLow

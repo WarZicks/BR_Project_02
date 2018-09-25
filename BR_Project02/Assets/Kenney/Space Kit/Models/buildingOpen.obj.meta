@@ -11,6 +11,7 @@ ModelImporter:
     2100002: _defaultMat
     2100004: light
     2100006: net
+    2100008: buildingOpenMat
     2300000: buildingOpen
     3300000: buildingOpen
     4300000: buildingOpen

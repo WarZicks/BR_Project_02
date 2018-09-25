@@ -15,6 +15,9 @@ ModelImporter:
     2100002: wood
     2100004: metal
     2100006: carpet
+    2100008: bedSingleMat
+    2100010: cover_1Mat
+    2100012: pillow_1Mat
     2300000: bedSingle
     2300002: cover_1
     2300004: pillow_1

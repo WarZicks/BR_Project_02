@@ -12,6 +12,8 @@ ModelImporter:
     2100000: plant
     2100002: wood
     2100004: woodDark
+    2100006: plantMat
+    2100008: pottedPlantMat
     2300000: plant
     2300002: pottedPlant
     3300000: plant

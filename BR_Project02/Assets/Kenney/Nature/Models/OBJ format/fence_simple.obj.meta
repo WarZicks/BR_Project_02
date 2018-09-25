@@ -8,6 +8,7 @@ ModelImporter:
     400000: fence_simple
     400002: //RootNode
     2100000: natureKit-wood
+    2100002: fence_simpleMat
     2300000: fence_simple
     3300000: fence_simple
     4300000: fence_simple

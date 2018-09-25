@@ -13,6 +13,9 @@ ModelImporter:
     400006: doorRight_1
     2100000: wood
     2100002: metal
+    2100004: cabinetTelevisionDoorsMat
+    2100006: doorLeft_1Mat
+    2100008: doorRight_1Mat
     2300000: cabinetTelevisionDoors
     2300002: doorLeft_1
     2300004: doorRight_1

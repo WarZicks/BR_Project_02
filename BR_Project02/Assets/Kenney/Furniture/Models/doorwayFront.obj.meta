@@ -13,6 +13,8 @@ ModelImporter:
     2100002: metalDark
     2100004: glass
     2100006: carpetWhite
+    2100008: door_4Mat
+    2100010: doorwayFrontMat
     2300000: door_4
     2300002: doorwayFront
     3300000: door_4

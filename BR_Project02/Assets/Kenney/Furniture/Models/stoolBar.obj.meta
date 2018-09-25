@@ -9,6 +9,7 @@ ModelImporter:
     400002: //RootNode
     2100000: wood
     2100002: carpet
+    2100004: stoolBarMat
     2300000: stoolBar
     3300000: stoolBar
     4300000: stoolBar

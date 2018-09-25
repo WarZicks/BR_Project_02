@@ -10,6 +10,8 @@ ModelImporter:
     400002: //RootNode
     400004: gate
     2100000: natureKit-wood
+    2100002: fence_gateMat
+    2100004: gateMat
     2300000: fence_gate
     2300002: gate
     3300000: fence_gate

@@ -10,6 +10,7 @@ ModelImporter:
     2100000: metalDark
     2100002: _defaultMat
     2100004: wood
+    2100006: wallCornerMat
     2300000: wallCorner
     3300000: wallCorner
     4300000: wallCorner

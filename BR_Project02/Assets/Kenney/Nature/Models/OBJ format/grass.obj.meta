@@ -8,6 +8,7 @@ ModelImporter:
     400000: grass
     400002: //RootNode
     2100000: natureKit-leavesGreen
+    2100002: grassMat
     2300000: grass
     3300000: grass
     4300000: grass

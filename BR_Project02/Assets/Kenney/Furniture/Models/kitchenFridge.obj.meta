@@ -15,6 +15,9 @@ ModelImporter:
     2100002: metal
     2100004: glass
     2100006: metalDark
+    2100008: doorFreezerMat
+    2100010: doorFridgeMat
+    2100012: kitchenFridgeMat
     2300000: doorFreezer
     2300002: doorFridge
     2300004: kitchenFridge

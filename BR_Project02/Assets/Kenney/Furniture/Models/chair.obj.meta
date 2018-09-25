@@ -8,6 +8,7 @@ ModelImporter:
     400000: chair
     400002: //RootNode
     2100000: wood
+    2100002: chairMat
     2300000: chair
     3300000: chair
     4300000: chair
