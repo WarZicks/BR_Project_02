@@ -57,6 +57,11 @@ namespace UnityStandardAssets.Characters.FirstPerson
                 m_Camera.enabled = false;
                 return;
             }
+
+            if (isServer)
+            {
+                gameObject.tag = "Player";
+            }
             m_CharacterController = GetComponent<CharacterController>();
             m_OriginalCameraPosition = m_Camera.transform.localPosition;
             m_FovKick.Setup(m_Camera);
@@ -67,6 +72,8 @@ namespace UnityStandardAssets.Characters.FirstPerson
             m_AudioSource = GetComponent<AudioSource>();
 			m_MouseLook.Init(transform , m_Camera.transform);
             PlayerHP = MaxPlayerHP;
+
+
         }
 
         public override void OnStartLocalPlayer()
@@ -126,6 +133,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
         [Command]
         public void CmdHitOpponent(GameObject opponent)
         {
+            Debug.Log("CmdHitOpponent");
             opponent.GetComponent<FirstPersonController>().TakeDamage();
         }
 
