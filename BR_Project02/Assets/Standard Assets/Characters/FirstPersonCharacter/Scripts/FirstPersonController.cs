@@ -112,6 +112,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
                 {
                     if (hit.collider.CompareTag("Opponent"))
                     {
+                        Debug.Log("I shoot someone");
                         CmdHitOpponent(hit.collider.gameObject);
                     }
                 }
