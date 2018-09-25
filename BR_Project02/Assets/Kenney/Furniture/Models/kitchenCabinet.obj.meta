@@ -12,6 +12,8 @@ ModelImporter:
     2100000: wood
     2100002: woodDark
     2100004: metal
+    2100006: door_5Mat
+    2100008: kitchenCabinetMat
     2300000: door_5
     2300002: kitchenCabinet
     3300000: door_5

@@ -8,6 +8,7 @@ ModelImporter:
     400000: plant_flatLarge
     400002: //RootNode
     2100000: natureKit-leavesGreen
+    2100002: plant_flatLargeMat
     2300000: plant_flatLarge
     3300000: plant_flatLarge
     4300000: plant_flatLarge

@@ -11,6 +11,7 @@ ModelImporter:
     2100002: pipe
     2100004: _defaultMat
     2100006: metal
+    2100008: itemWeaponMat
     2300000: itemWeapon
     3300000: itemWeapon
     4300000: itemWeapon

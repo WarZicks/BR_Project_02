@@ -18,6 +18,11 @@ ModelImporter:
     2100000: wood
     2100002: carpetWhite
     2100004: carpet
+    2100006: bedBunkMat
+    2100008: coverBottomMat
+    2100010: coverTopMat
+    2100012: pillowBottomMat
+    2100014: pillowTopMat
     2300000: bedBunk
     2300002: coverBottom
     2300004: coverTop

@@ -8,6 +8,7 @@ ModelImporter:
     400000: rocks
     400002: //RootNode
     2100000: rock
+    2100002: rocksMat
     2300000: rocks
     3300000: rocks
     4300000: rocks

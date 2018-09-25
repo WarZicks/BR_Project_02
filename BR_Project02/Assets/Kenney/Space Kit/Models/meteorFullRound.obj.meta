@@ -8,6 +8,7 @@ ModelImporter:
     400000: meteorFullRound
     400002: //RootNode
     2100000: rock
+    2100002: meteorFullRoundMat
     2300000: meteorFullRound
     3300000: meteorFullRound
     4300000: meteorFullRound

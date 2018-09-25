@@ -12,6 +12,8 @@ ModelImporter:
     2100000: wood
     2100002: woodDark
     2100004: metal
+    2100006: bathroomCabinetMat
+    2100008: doorMat
     2300000: bathroomCabinet
     2300002: door
     3300000: bathroomCabinet

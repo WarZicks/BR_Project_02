@@ -11,6 +11,8 @@ ModelImporter:
     400004: //RootNode
     2100000: natureKit-wood
     2100002: natureKit-leavesGreen
+    2100004: Group_145Mat
+    2100006: Group_147Mat
     2300000: Group_145
     2300002: Group_147
     3300000: Group_145

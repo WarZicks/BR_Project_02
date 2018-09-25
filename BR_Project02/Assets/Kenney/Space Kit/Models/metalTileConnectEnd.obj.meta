@@ -10,6 +10,7 @@ ModelImporter:
     2100000: metal
     2100002: net
     2100004: light
+    2100006: metalTileConnectEndMat
     2300000: metalTileConnectEnd
     3300000: metalTileConnectEnd
     4300000: metalTileConnectEnd

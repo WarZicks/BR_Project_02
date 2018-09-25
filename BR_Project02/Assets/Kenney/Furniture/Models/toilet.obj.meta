@@ -13,6 +13,8 @@ ModelImporter:
     2100002: carpetWhite
     2100004: metalLight
     2100006: metalDark
+    2100008: cover_2Mat
+    2100010: toiletMat
     2300000: cover_2
     2300002: toilet
     3300000: cover_2

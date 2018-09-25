@@ -14,6 +14,10 @@ ModelImporter:
     400006: left_1
     400008: right_1
     2100000: astronaut
+    2100002: astronaut_8anglesMat
+    2100004: head_1Mat
+    2100006: left_1Mat
+    2100008: right_1Mat
     2300000: astronaut_8angles
     2300002: head_1
     2300004: left_1

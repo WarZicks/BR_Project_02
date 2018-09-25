@@ -9,6 +9,7 @@ ModelImporter:
     400002: //RootNode
     2100000: natureKit-woodLight
     2100002: natureKit-wood
+    2100004: campfire_smallMat
     2300000: campfire_small
     3300000: campfire_small
     4300000: campfire_small

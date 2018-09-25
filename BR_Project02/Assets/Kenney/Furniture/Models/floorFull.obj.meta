@@ -8,6 +8,7 @@ ModelImporter:
     400000: floorFull
     400002: //RootNode
     2100000: wood
+    2100002: floorFullMat
     2300000: floorFull
     3300000: floorFull
     4300000: floorFull

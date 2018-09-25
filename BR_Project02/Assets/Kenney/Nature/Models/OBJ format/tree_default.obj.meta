@@ -9,6 +9,7 @@ ModelImporter:
     400002: //RootNode
     2100000: natureKit-wood
     2100002: natureKit-leavesGreen
+    2100004: tree_defaultMat
     2300000: tree_default
     3300000: tree_default
     4300000: tree_default

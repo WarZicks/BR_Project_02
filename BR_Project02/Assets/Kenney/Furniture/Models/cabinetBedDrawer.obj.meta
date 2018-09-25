@@ -14,6 +14,9 @@ ModelImporter:
     2100000: wood
     2100002: _defaultMat
     2100004: metal
+    2100006: cabinetBedDrawerMat
+    2100008: door_2Mat
+    2100010: drawerMat
     2300000: cabinetBedDrawer
     2300002: door_2
     2300004: drawer

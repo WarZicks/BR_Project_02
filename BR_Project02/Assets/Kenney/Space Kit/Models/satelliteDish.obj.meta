@@ -9,6 +9,7 @@ ModelImporter:
     400002: //RootNode
     2100000: _defaultMat
     2100002: metal
+    2100004: satelliteDishMat
     2300000: satelliteDish
     3300000: satelliteDish
     4300000: satelliteDish

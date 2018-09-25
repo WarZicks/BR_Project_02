@@ -8,6 +8,7 @@ ModelImporter:
     400000: pipeSplit
     400002: //RootNode
     2100000: pipe
+    2100002: pipeSplitMat
     2300000: pipeSplit
     3300000: pipeSplit
     4300000: pipeSplit

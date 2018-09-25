@@ -9,6 +9,7 @@ ModelImporter:
     400002: //RootNode
     2100000: glass
     2100002: _defaultMat
+    2100004: laserSabelOffMat
     2300000: laserSabelOff
     3300000: laserSabelOff
     4300000: laserSabelOff

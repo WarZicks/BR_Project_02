@@ -10,6 +10,7 @@ ModelImporter:
     2100000: wood
     2100002: _defaultMat
     2100004: metalDark
+    2100006: wallHalfMat
     2300000: wallHalf
     3300000: wallHalf
     4300000: wallHalf

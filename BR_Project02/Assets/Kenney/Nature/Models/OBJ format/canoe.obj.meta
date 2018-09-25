@@ -9,6 +9,7 @@ ModelImporter:
     400002: //RootNode
     2100000: natureKit-wood
     2100002: natureKit-mushroom
+    2100004: canoeMat
     2300000: canoe
     3300000: canoe
     4300000: canoe

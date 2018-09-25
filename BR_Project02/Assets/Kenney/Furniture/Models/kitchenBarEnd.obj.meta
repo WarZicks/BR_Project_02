@@ -9,6 +9,7 @@ ModelImporter:
     400002: //RootNode
     2100000: wood
     2100002: metal
+    2100004: kitchenBarEndMat
     2300000: kitchenBarEnd
     3300000: kitchenBarEnd
     4300000: kitchenBarEnd

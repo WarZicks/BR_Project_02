@@ -9,6 +9,7 @@ ModelImporter:
     400002: //RootNode
     2100000: natureKit-_defaultMat
     2100002: natureKit-mushroom
+    2100004: mushroom_redGroupMat
     2300000: mushroom_redGroup
     3300000: mushroom_redGroup
     4300000: mushroom_redGroup

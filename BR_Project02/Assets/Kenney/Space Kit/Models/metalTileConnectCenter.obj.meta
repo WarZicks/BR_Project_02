@@ -8,6 +8,7 @@ ModelImporter:
     400000: metalTileConnectCenter
     400002: //RootNode
     2100000: net
+    2100002: metalTileConnectCenterMat
     2300000: metalTileConnectCenter
     3300000: metalTileConnectCenter
     4300000: metalTileConnectCenter

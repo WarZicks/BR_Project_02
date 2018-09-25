@@ -9,6 +9,7 @@ ModelImporter:
     400002: //RootNode
     2100000: wood
     2100002: metalMedium
+    2100004: speakerMat
     2300000: speaker
     3300000: speaker
     4300000: speaker

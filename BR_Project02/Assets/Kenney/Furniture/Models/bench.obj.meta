@@ -8,6 +8,7 @@ ModelImporter:
     400000: bench
     400002: //RootNode
     2100000: wood
+    2100002: benchMat
     2300000: bench
     3300000: bench
     4300000: bench

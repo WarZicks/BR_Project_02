@@ -10,6 +10,7 @@ ModelImporter:
     2100000: alienPlant
     2100002: rock
     2100004: _defaultMat
+    2100006: rocksOreMat
     2300000: rocksOre
     3300000: rocksOre
     4300000: rocksOre

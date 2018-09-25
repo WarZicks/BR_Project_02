@@ -8,6 +8,7 @@ ModelImporter:
     400000: table
     400002: //RootNode
     2100000: wood
+    2100002: tableMat
     2300000: table
     3300000: table
     4300000: table

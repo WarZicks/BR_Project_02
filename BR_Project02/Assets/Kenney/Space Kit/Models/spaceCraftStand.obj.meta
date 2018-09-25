@@ -9,6 +9,7 @@ ModelImporter:
     400002: //RootNode
     2100000: metal
     2100002: _defaultMat
+    2100004: spaceCraftStandMat
     2300000: spaceCraftStand
     3300000: spaceCraftStand
     4300000: spaceCraftStand

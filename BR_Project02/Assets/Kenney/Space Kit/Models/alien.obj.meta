@@ -14,6 +14,10 @@ ModelImporter:
     400006: left
     400008: right
     2100000: alien
+    2100002: alien_8anglesMat
+    2100004: headMat
+    2100006: leftMat
+    2100008: rightMat
     2300000: alien_8angles
     2300002: head
     2300004: left

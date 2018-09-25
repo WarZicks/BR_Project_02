@@ -9,6 +9,7 @@ ModelImporter:
     400002: //RootNode
     2100000: natureKit-wood
     2100002: natureKit-woodLight
+    2100004: treeStump_deepMat
     2300000: treeStump_deep
     3300000: treeStump_deep
     4300000: treeStump_deep

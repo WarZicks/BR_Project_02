@@ -15,6 +15,9 @@ ModelImporter:
     2100002: metal
     2100004: carpetWhite
     2100006: metalDark
+    2100008: doorLeft_3Mat
+    2100010: doorRight_3Mat
+    2100012: showerMat
     2300000: doorLeft_3
     2300002: doorRight_3
     2300004: shower

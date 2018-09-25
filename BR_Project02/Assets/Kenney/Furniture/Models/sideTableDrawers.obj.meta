@@ -14,6 +14,9 @@ ModelImporter:
     2100000: wood
     2100002: metal
     2100004: _defaultMat
+    2100006: drawerLeftMat
+    2100008: drawerRightMat
+    2100010: sideTableDrawersMat
     2300000: drawerLeft
     2300002: drawerRight
     2300004: sideTableDrawers

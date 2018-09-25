@@ -9,6 +9,7 @@ ModelImporter:
     400002: //RootNode
     2100000: _defaultMat
     2100002: metal
+    2100004: satelliteDishAntennaMat
     2300000: satelliteDishAntenna
     3300000: satelliteDishAntenna
     4300000: satelliteDishAntenna

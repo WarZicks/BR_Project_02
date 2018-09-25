@@ -9,6 +9,7 @@ ModelImporter:
     400002: //RootNode
     2100000: natureKit-stone
     2100002: natureKit-_defaultMat
+    2100004: stone_statueMat
     2300000: stone_statue
     3300000: stone_statue
     4300000: stone_statue

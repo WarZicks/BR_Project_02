@@ -10,6 +10,7 @@ ModelImporter:
     2100000: net
     2100002: metal
     2100004: light
+    2100006: metalTileConnectStraightMat
     2300000: metalTileConnectStraight
     3300000: metalTileConnectStraight
     4300000: metalTileConnectStraight

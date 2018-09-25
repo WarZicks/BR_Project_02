@@ -9,6 +9,7 @@ ModelImporter:
     400002: //RootNode
     2100000: Metal
     2100002: Roof
+    2100004: Mesh1_Group1_ModelMat
     2300000: Mesh1_Group1_Model
     3300000: Mesh1_Group1_Model
     4300000: Mesh1_Group1_Model

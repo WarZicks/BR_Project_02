@@ -8,6 +8,7 @@ ModelImporter:
     400000: metalFenceCorner
     400002: //RootNode
     2100000: _defaultMat
+    2100002: metalFenceCornerMat
     2300000: metalFenceCorner
     3300000: metalFenceCorner
     4300000: metalFenceCorner

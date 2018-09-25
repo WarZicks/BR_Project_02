@@ -8,6 +8,7 @@ ModelImporter:
     400000: cliffGrey_entrance
     400002: //RootNode
     2100000: natureKit-stone
+    2100002: cliffGrey_entranceMat
     2300000: cliffGrey_entrance
     3300000: cliffGrey_entrance
     4300000: cliffGrey_entrance

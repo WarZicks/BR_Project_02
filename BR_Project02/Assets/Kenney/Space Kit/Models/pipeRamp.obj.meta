@@ -8,6 +8,7 @@ ModelImporter:
     400000: pipeRamp
     400002: //RootNode
     2100000: pipe
+    2100002: pipeRampMat
     2300000: pipeRamp
     3300000: pipeRamp
     4300000: pipeRamp

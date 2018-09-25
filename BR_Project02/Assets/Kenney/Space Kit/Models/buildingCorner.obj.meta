@@ -11,6 +11,7 @@ ModelImporter:
     2100002: glass
     2100004: metal
     2100006: pipe
+    2100008: buildingCornerMat
     2300000: buildingCorner
     3300000: buildingCorner
     4300000: buildingCorner

@@ -11,6 +11,8 @@ ModelImporter:
     400004: door_1
     2100000: wood
     2100002: metal
+    2100004: cabinetBedMat
+    2100006: door_1Mat
     2300000: cabinetBed
     2300002: door_1
     3300000: cabinetBed

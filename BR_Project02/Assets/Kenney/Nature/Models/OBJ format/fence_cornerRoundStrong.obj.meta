@@ -8,6 +8,7 @@ ModelImporter:
     400000: fence_cornerRoundStrong
     400002: //RootNode
     2100000: natureKit-wood
+    2100002: fence_cornerRoundStrongMat
     2300000: fence_cornerRoundStrong
     3300000: fence_cornerRoundStrong
     4300000: fence_cornerRoundStrong

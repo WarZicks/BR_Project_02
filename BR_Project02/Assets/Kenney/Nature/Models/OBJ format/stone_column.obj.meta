@@ -8,6 +8,7 @@ ModelImporter:
     400000: stone_column
     400002: //RootNode
     2100000: natureKit-stone
+    2100002: stone_columnMat
     2300000: stone_column
     3300000: stone_column
     4300000: stone_column

@@ -9,6 +9,7 @@ ModelImporter:
     400002: //RootNode
     2100000: natureKit-wood
     2100002: natureKit-leavesGreen
+    2100004: cliffBrown_blockHalfMat
     2300000: cliffBrown_blockHalf
     3300000: cliffBrown_blockHalf
     4300000: cliffBrown_blockHalf

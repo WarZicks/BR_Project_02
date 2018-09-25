@@ -10,6 +10,7 @@ ModelImporter:
     2100000: metal
     2100002: light
     2100004: net
+    2100006: metalTileDoubleMat
     2300000: metalTileDouble
     3300000: metalTileDouble
     4300000: metalTileDouble

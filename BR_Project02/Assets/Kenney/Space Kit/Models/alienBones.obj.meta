@@ -8,6 +8,7 @@ ModelImporter:
     400000: alienBones
     400002: //RootNode
     2100000: alienBone
+    2100002: alienBonesMat
     2300000: alienBones
     3300000: alienBones
     4300000: alienBones

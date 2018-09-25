@@ -15,6 +15,8 @@ ModelImporter:
     2100006: metal
     2100008: glass
     2100010: _defaultMat
+    2100012: washerMat
+    2100014: washerDoorMat
     2300000: washer
     2300002: washerDoor
     3300000: washer

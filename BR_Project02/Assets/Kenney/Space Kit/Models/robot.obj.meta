@@ -10,6 +10,7 @@ ModelImporter:
     2100000: glass
     2100002: _defaultMat
     2100004: metal
+    2100006: robotMat
     2300000: robot
     3300000: robot
     4300000: robot

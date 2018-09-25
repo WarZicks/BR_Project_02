@@ -9,6 +9,7 @@ ModelImporter:
     400002: //RootNode
     2100000: metal
     2100002: pipe
+    2100004: pipeStandStraightLinerEndMat
     2300000: pipeStandStraightLinerEnd
     3300000: pipeStandStraightLinerEnd
     4300000: pipeStandStraightLinerEnd

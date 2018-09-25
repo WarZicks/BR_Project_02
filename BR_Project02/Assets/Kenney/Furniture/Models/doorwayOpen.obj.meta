@@ -8,6 +8,7 @@ ModelImporter:
     400000: doorwayOpen
     400002: //RootNode
     2100000: wood
+    2100002: doorwayOpenMat
     2300000: doorwayOpen
     3300000: doorwayOpen
     4300000: doorwayOpen

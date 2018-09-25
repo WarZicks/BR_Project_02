@@ -9,6 +9,7 @@ ModelImporter:
     400002: //RootNode
     2100000: metal
     2100002: glass
+    2100004: tableGlassMat
     2300000: tableGlass
     3300000: tableGlass
     4300000: tableGlass

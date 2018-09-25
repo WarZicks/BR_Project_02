@@ -11,6 +11,7 @@ ModelImporter:
     2100002: light
     2100004: net
     2100006: _defaultMat
+    2100008: metalTileConnectCornerInnerMat
     2300000: metalTileConnectCornerInner
     3300000: metalTileConnectCornerInner
     4300000: metalTileConnectCornerInner

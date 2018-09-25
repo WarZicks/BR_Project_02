@@ -9,6 +9,7 @@ ModelImporter:
     400002: //RootNode
     2100000: natureKit-wood
     2100002: natureKit-stone
+    2100004: bridge_archMat
     2300000: bridge_arch
     3300000: bridge_arch
     4300000: bridge_arch

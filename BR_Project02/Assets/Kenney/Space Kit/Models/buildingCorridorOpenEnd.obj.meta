@@ -11,6 +11,7 @@ ModelImporter:
     2100002: pipe
     2100004: metal
     2100006: glass
+    2100008: buildingCorridorOpenEndMat
     2300000: buildingCorridorOpenEnd
     3300000: buildingCorridorOpenEnd
     4300000: buildingCorridorOpenEnd

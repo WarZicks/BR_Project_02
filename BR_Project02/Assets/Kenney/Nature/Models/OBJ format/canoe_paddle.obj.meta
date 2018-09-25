@@ -8,6 +8,7 @@ ModelImporter:
     400000: canoe_paddle
     400002: //RootNode
     2100000: natureKit-wood
+    2100002: canoe_paddleMat
     2300000: canoe_paddle
     3300000: canoe_paddle
     4300000: canoe_paddle

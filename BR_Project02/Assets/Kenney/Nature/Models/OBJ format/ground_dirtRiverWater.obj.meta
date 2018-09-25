@@ -9,6 +9,7 @@ ModelImporter:
     400002: //RootNode
     2100000: natureKit-wood
     2100002: natureKit-water
+    2100004: ground_dirtRiverWaterMat
     2300000: ground_dirtRiverWater
     3300000: ground_dirtRiverWater
     4300000: ground_dirtRiverWater

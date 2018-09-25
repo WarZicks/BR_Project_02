@@ -10,6 +10,7 @@ ModelImporter:
     2100000: metalLight
     2100002: lamp
     2100004: wood
+    2100006: ceilingFanMat
     2300000: ceilingFan
     3300000: ceilingFan
     4300000: ceilingFan

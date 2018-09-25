@@ -9,6 +9,7 @@ ModelImporter:
     400002: //RootNode
     2100000: natureKit-wood
     2100002: natureKit-woodLight
+    2100004: log_largeMat
     2300000: log_large
     3300000: log_large
     4300000: log_large
