@@ -110,6 +110,8 @@ namespace UnityStandardAssets.Characters.FirstPerson
                 RaycastHit hit;
                 if (Physics.Raycast(ray, out hit, RayDistance))
                 {
+                    Debug.Log("hit distance: " +hit.distance);
+                    Debug.Log("hit name: " + hit.collider.gameObject.name);
                     if (hit.collider.CompareTag("Opponent"))
                     {
                         Debug.Log("I shoot someone");
