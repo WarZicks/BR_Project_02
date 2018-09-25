@@ -60,6 +60,7 @@ GameObject:
   - component: {fileID: 82374786194889006}
   - component: {fileID: 114949719688215940}
   - component: {fileID: 114425036423119570}
+  - component: {fileID: 136001747986609694}
   m_Layer: 0
   m_Name: BobLeTueur3
   m_TagString: Opponent
@@ -138,8 +139,8 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1296990653097942}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.026, y: 0.013, z: -0.035}
-  m_LocalScale: {x: 0.76878303, y: 0.92253965, z: 0.8571162}
+  m_LocalPosition: {x: -0.011, y: 0.013, z: 0.016}
+  m_LocalScale: {x: 0.76303715, y: 0.9156446, z: 0.8507101}
   m_Children: []
   m_Father: {fileID: 4751054877286742}
   m_RootOrder: 1
@@ -193,7 +194,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1448562870596952}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.348, y: 0.944, z: -2.9780865}
+  m_LocalPosition: {x: -4.834451, y: 0.90953964, z: -5.191262}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4313980041635532}
@@ -689,6 +690,19 @@ Behaviour:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1996040828653782}
   m_Enabled: 1
+--- !u!136 &136001747986609694
+CapsuleCollider:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1448562870596952}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  m_Radius: 0.5
+  m_Height: 1
+  m_Direction: 1
+  m_Center: {x: 0, y: 0, z: 0}
 --- !u!136 &136995335922109504
 CapsuleCollider:
   m_ObjectHideFlags: 1
