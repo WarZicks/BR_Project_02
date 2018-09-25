@@ -113,6 +113,48 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &264263625
+Prefab:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 4884455069406768, guid: 118223093a6d1e54c90fd2892978bdc6, type: 2}
+      propertyPath: m_LocalPosition.x
+      value: 34.245
+      objectReference: {fileID: 0}
+    - target: {fileID: 4884455069406768, guid: 118223093a6d1e54c90fd2892978bdc6, type: 2}
+      propertyPath: m_LocalPosition.y
+      value: 0.21
+      objectReference: {fileID: 0}
+    - target: {fileID: 4884455069406768, guid: 118223093a6d1e54c90fd2892978bdc6, type: 2}
+      propertyPath: m_LocalPosition.z
+      value: 51.451
+      objectReference: {fileID: 0}
+    - target: {fileID: 4884455069406768, guid: 118223093a6d1e54c90fd2892978bdc6, type: 2}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4884455069406768, guid: 118223093a6d1e54c90fd2892978bdc6, type: 2}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4884455069406768, guid: 118223093a6d1e54c90fd2892978bdc6, type: 2}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4884455069406768, guid: 118223093a6d1e54c90fd2892978bdc6, type: 2}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 4884455069406768, guid: 118223093a6d1e54c90fd2892978bdc6, type: 2}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 118223093a6d1e54c90fd2892978bdc6, type: 2}
+  m_IsPrefabAsset: 0
 --- !u!1 &1489857824
 GameObject:
   m_ObjectHideFlags: 0
@@ -195,10 +237,10 @@ Transform:
   m_GameObject: {fileID: 1489857824}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 4.6544, y: 4.6544, z: 4.6544}
+  m_LocalScale: {x: 31.715082, y: 31.715082, z: 31.715082}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1918776518
 GameObject:
@@ -238,7 +280,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 2
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1957538250
 GameObject:
