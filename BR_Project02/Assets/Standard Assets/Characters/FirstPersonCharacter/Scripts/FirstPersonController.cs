@@ -43,6 +43,11 @@ namespace UnityStandardAssets.Characters.FirstPerson
         private bool m_Jumping;
         private AudioSource m_AudioSource;
 
+        private int MaxPlayerHP = 100;
+        [SyncVar (hook = "UpdateHP")] public int PlayerHP;
+        public int WeaponDamage = 20;
+        public float RayDistance;
+
         // Use this for initialization
         private void Start()
         {
@@ -60,6 +65,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
             m_Jumping = false;
             m_AudioSource = GetComponent<AudioSource>();
 			m_MouseLook.Init(transform , m_Camera.transform);
+            PlayerHP = MaxPlayerHP;
         }
 
 
@@ -90,6 +96,53 @@ namespace UnityStandardAssets.Characters.FirstPerson
             }
 
             m_PreviouslyGrounded = m_CharacterController.isGrounded;
+
+
+            // Shoot on opponent
+            if (Input.GetMouseButtonDown(0))
+            {
+                Ray ray = Camera.main.ViewportPointToRay(new Vector3(0.5F, 0.5F, 0));
+                RaycastHit hit;
+                if (Physics.Raycast(ray, out hit, RayDistance))
+                {
+                    if (hit.collider.CompareTag("Opponent"))
+                    {
+                        CmdHitOpponent(hit.collider.GetComponent<FirstPersonController>());
+                    }
+                }
+
+            }
+        }
+
+
+        [Command]
+        public void CmdHitOpponent(FirstPersonController opponent)
+        {
+            opponent.TakeDamage();
+        }
+
+        public void UpdateHP(int myNewHp)
+        {
+            if (isLocalPlayer)
+            {
+                //FeedbackDamageUI();
+                if (myNewHp == 0)
+                {
+                    CmdDie();
+                }
+            }
+        }
+
+        public void TakeDamage()
+        {
+            PlayerHP -= WeaponDamage;
+            Debug.Log("My HP: " + PlayerHP);
+        }
+
+        [Command]
+        public void CmdDie()
+        {
+            Debug.Log("I'm dead");
         }
 
 
@@ -273,4 +326,6 @@ namespace UnityStandardAssets.Characters.FirstPerson
             body.AddForceAtPosition(m_CharacterController.velocity*0.1f, hit.point, ForceMode.Impulse);
         }
     }
+
+
 }
