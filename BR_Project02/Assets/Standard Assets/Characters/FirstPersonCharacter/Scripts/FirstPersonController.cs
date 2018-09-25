@@ -57,6 +57,10 @@ namespace UnityStandardAssets.Characters.FirstPerson
                 m_Camera.enabled = false;
                 return;
             }
+            if (isLocalPlayer)
+            {
+                gameObject.tag = "Untagged";
+            }
             m_CharacterController = GetComponent<CharacterController>();
             m_OriginalCameraPosition = m_Camera.transform.localPosition;
             m_FovKick.Setup(m_Camera);
