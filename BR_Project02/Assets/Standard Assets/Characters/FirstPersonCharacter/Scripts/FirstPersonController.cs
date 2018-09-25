@@ -112,8 +112,6 @@ namespace UnityStandardAssets.Characters.FirstPerson
                 RaycastHit hit;
                 if (Physics.Raycast(ray, out hit, RayDistance))
                 {
-                    Debug.Log("hit distance: " +hit.distance);
-                    Debug.Log("hit name: " + hit.collider.gameObject.name);
                     if (hit.collider.CompareTag("Opponent"))
                     {
                         Debug.Log("I shoot someone");
@@ -128,7 +126,6 @@ namespace UnityStandardAssets.Characters.FirstPerson
         [Command]
         public void CmdHitOpponent(GameObject opponent)
         {
-            Debug.Log("CmdHitOpponent");
             opponent.GetComponent<FirstPersonController>().TakeDamage();
         }
 
@@ -136,6 +133,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
         {
             if (isLocalPlayer)
             {
+                Debug.Log("My HP: " + PlayerHP);
                 //FeedbackDamageUI();
                 if (myNewHp == 0)
                 {
@@ -147,13 +145,14 @@ namespace UnityStandardAssets.Characters.FirstPerson
         public void TakeDamage()
         {
             PlayerHP -= WeaponDamage;
-            Debug.Log("My HP: " + PlayerHP);
         }
 
         [Command]
         public void CmdDie()
         {
             Debug.Log("I'm dead");
+            NetworkServer.UnSpawn(gameObject);
+            Destroy(gameObject);
         }
 
 
