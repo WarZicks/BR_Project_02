@@ -46,15 +46,13 @@ namespace UnityStandardAssets.Characters.FirstPerson
         private AudioSource m_AudioSource;
         public AudioListener myAL;
 
-        public  int MaxPlayerHP = 100;
-        //[SyncVar (hook = "UpdateHP")]
-        [SyncVar]
-        public int PlayerHP;
+        public  float MaxPlayerHP = 100;
+        [SyncVar (hook = "UpdateHP")]
+        public float PlayerHP;
         public int WeaponDamage = 20;
         public float RayDistance;
         public GameObject Laser;
         public Image HealthBar;
-        public GameObject Img_Running;
 
         // Use this for initialization
         private void Start()
@@ -130,15 +128,6 @@ namespace UnityStandardAssets.Characters.FirstPerson
                 }
 
             }
-            if (!m_IsWalking)
-            {
-                Img_Running.SetActive(true);
-            }
-            else
-            {
-                Img_Running.SetActive(false);
-            }
-
         }
 
 
@@ -170,9 +159,9 @@ namespace UnityStandardAssets.Characters.FirstPerson
 
         public void UpdateHP(int myNewHp)
         {
-            HealthBar.fillAmount = (PlayerHP / MaxPlayerHP);
             if (isLocalPlayer)
             {
+                HealthBar.fillAmount = (PlayerHP / MaxPlayerHP);
                 Debug.Log("My HP: " + PlayerHP);
                 //FeedbackDamageUI();
                 if (myNewHp == 0)
@@ -185,7 +174,6 @@ namespace UnityStandardAssets.Characters.FirstPerson
         public void TakeDamage()
         {
             PlayerHP -= WeaponDamage;
-            UpdateHP(PlayerHP);
         }
 
         [Command]
