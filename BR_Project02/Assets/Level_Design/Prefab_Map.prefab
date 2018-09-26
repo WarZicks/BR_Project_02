@@ -22,7 +22,7 @@ GameObject:
   - component: {fileID: 218914204044338638}
   - component: {fileID: 154962818203840608}
   m_Layer: 0
-  m_Name: Terrain
+  m_Name: Prefab_Map
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0

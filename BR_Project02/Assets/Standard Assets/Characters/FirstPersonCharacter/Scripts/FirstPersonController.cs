@@ -45,13 +45,15 @@ namespace UnityStandardAssets.Characters.FirstPerson
         public AudioListener myAL;
 
         //public  int MaxPlayerHP = 100;
-        [SyncVar (hook = "UpdateHP")] public int PlayerHP = 100;
+        [SyncVar (hook = "UpdateHP")]
+        public int PlayerHP;
         public int WeaponDamage = 20;
         public float RayDistance;
 
         // Use this for initialization
         private void Start()
         {
+            PlayerHP = 100;
             if (!isLocalPlayer)
             {
                 m_Camera.enabled = false;
@@ -112,7 +114,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
             {
                 Ray ray = Camera.main.ViewportPointToRay(new Vector3(0.5F, 0.5F, 0));
                 RaycastHit hit;
-                if (Physics.Raycast(ray, out hit, RayDistance))
+                if (Physics.Raycast(ray, out hit, 10f))
                 {
                     if (hit.collider.CompareTag("Opponent"))
                     {

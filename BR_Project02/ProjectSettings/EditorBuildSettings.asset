@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Accueil_Network.unity
+    guid: ac826fae1a0a08a4aa924fa40efcf9b2
+  - enabled: 1
     path: Assets/Scenes/Lobby_Network.unity
     guid: 99c9720ab356a0642a771bea13969a05
   - enabled: 1
@@ -14,4 +17,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ClaraLicorne.unity
     guid: 09d81607c4de66c4eaab7a1d9231e8de
+  - enabled: 1
+    path: Assets/Scenes/Scene_Tom.unity
+    guid: 5f74db31b9abc4e4497979dc94a6dbb2
   m_configObjects: {}
