@@ -1,4 +1,5 @@
 using System;
+using System.Collections;
 using UnityEngine;
 using UnityEngine.Networking;
 using UnityStandardAssets.CrossPlatformInput;
@@ -49,6 +50,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
         public int PlayerHP;
         public int WeaponDamage = 20;
         public float RayDistance;
+        public GameObject Laser;
 
         // Use this for initialization
         private void Start()
@@ -114,6 +116,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
             {
                 Ray ray = Camera.main.ViewportPointToRay(new Vector3(0.5F, 0.5F, 0));
                 RaycastHit hit;
+                CmdDisplayLaserBeam();
                 if (Physics.Raycast(ray, out hit, 10f))
                 {
                     if (hit.collider.CompareTag("Opponent"))
@@ -124,6 +127,26 @@ namespace UnityStandardAssets.Characters.FirstPerson
                 }
 
             }
+        }
+
+
+        [Command]
+        public void CmdDisplayLaserBeam()
+        {
+            RpcShowMyBeam();
+        }
+
+
+        [ClientRpc]
+        public void RpcShowMyBeam()
+        {
+            Laser.SetActive(true);
+            StartCoroutine(HideMyBeam());
+        }
+        public IEnumerator HideMyBeam()
+        {
+            yield return new WaitForSeconds(0.5f);
+            Laser.SetActive(false);
         }
 
 
