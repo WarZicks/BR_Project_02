@@ -161,7 +161,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
         {
             if (isLocalPlayer)
             {
-                HealthBar.fillAmount = (PlayerHP / MaxPlayerHP);
+                //HealthBar.fillAmount = (PlayerHP / MaxPlayerHP);
                 Debug.Log("My HP: " + PlayerHP);
                 //FeedbackDamageUI();
                 if (myNewHp == 0)
@@ -365,14 +365,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
             body.AddForceAtPosition(m_CharacterController.velocity*0.1f, hit.point, ForceMode.Impulse);
         }
 
-        private void OnTriggerEnter(Collider other)
-        {
-            if(other.gameObject.tag == "DeathZone")
-            {
-                Debug.Log("Triggered");
-                CmdDie();
-            }
-        }
+        
     }
 
     

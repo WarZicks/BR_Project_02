@@ -1,14 +1,16 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Networking;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public class Ui_Manager_MM : MonoBehaviour {
+public class Ui_Manager_MM : NetworkBehaviour {
     public GameObject Jouer;
     public GameObject Quitter;
     public GameObject Network;
     public GameObject Retour;
+
     // Use this for initialization
     void Start () {
 		

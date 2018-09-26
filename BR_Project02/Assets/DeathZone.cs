@@ -1,8 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.Networking;
 using UnityEngine;
 
-public class DeathZone : MonoBehaviour {
+public class DeathZone : NetworkBehaviour {
 
 	// Use this for initialization
 	void Start () {
