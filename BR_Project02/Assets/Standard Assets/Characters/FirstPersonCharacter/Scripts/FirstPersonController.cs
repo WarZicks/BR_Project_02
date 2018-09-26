@@ -47,7 +47,8 @@ namespace UnityStandardAssets.Characters.FirstPerson
         public AudioListener myAL;
 
         public  int MaxPlayerHP = 100;
-        [SyncVar (hook = "UpdateHP")]
+        //[SyncVar (hook = "UpdateHP")]
+        [SyncVar]
         public int PlayerHP;
         public int WeaponDamage = 20;
         public float RayDistance;
@@ -123,7 +124,6 @@ namespace UnityStandardAssets.Characters.FirstPerson
                 {
                     if (hit.collider.CompareTag("Opponent"))
                     {
-                        Debug.Log("I shoot someone");
                         CmdHitOpponent(hit.collider.gameObject);
                     }
                 }
@@ -160,10 +160,10 @@ namespace UnityStandardAssets.Characters.FirstPerson
 
         public void UpdateHP(int myNewHp)
         {
+            HealthBar.fillAmount = (PlayerHP / MaxPlayerHP);
             if (isLocalPlayer)
             {
-                HealthBar.fillAmount = (PlayerHP / MaxPlayerHP);
-                //Debug.Log("My HP: " + PlayerHP);
+                Debug.Log("My HP: " + PlayerHP);
                 //FeedbackDamageUI();
                 if (myNewHp == 0)
                 {
@@ -175,6 +175,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
         public void TakeDamage()
         {
             PlayerHP -= WeaponDamage;
+            UpdateHP(PlayerHP);
         }
 
         [Command]
