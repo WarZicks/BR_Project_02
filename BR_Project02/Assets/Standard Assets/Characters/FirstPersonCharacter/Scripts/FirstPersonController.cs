@@ -112,9 +112,9 @@ namespace UnityStandardAssets.Characters.FirstPerson
 
 
             // Shoot on opponent
+            Ray ray = m_Camera.ViewportPointToRay(new Vector3(0.5F, 0.5F, 0));
             if (Input.GetMouseButtonDown(0))
             {
-                Ray ray = Camera.main.ViewportPointToRay(new Vector3(0.5F, 0.5F, 0));
                 RaycastHit hit;
                 CmdDisplayLaserBeam();
                 if (Physics.Raycast(ray, out hit, 10f))
@@ -146,7 +146,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
         }
         public IEnumerator HideMyBeam()
         {
-            yield return new WaitForSeconds(0.5f);
+            yield return new WaitForSeconds(0.2f);
             Laser.SetActive(false);
         }
 
