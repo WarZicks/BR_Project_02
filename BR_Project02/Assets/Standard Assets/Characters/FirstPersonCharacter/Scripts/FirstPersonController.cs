@@ -157,7 +157,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
             opponent.GetComponent<FirstPersonController>().TakeDamage();
         }
 
-        public void UpdateHP(int myNewHp)
+        public void UpdateHP(float myNewHp)
         {
             if (isLocalPlayer)
             {

@@ -1187,7 +1187,7 @@ Animation:
   m_Animations:
   - {fileID: 7400000, guid: 20a00d966e81a4546b33102f4de84d88, type: 2}
   m_WrapMode: 0
-  m_PlayAutomatically: 0
+  m_PlayAutomatically: 1
   m_AnimatePhysics: 0
   m_CullingType: 0
 --- !u!114 &114270879883475300
@@ -1368,10 +1368,12 @@ MonoBehaviour:
   m_LandSound: {fileID: 8300000, guid: 3b09d59f4499d45428baa7a21e954296, type: 3}
   m_Camera: {fileID: 20434009316474828}
   myAL: {fileID: 81031828389623044}
+  MaxPlayerHP: 100
   PlayerHP: 100
   WeaponDamage: 20
   RayDistance: 10
   Laser: {fileID: 1660500200853320, guid: 1adc91e652d1feb4087e25f71b60ca98, type: 2}
+  HealthBar: {fileID: 0}
 --- !u!124 &124269900066756310
 Behaviour:
   m_ObjectHideFlags: 1
