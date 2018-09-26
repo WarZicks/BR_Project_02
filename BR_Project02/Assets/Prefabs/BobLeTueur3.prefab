@@ -637,7 +637,7 @@ MonoBehaviour:
   MaxPlayerHP: 100
   PlayerHP: 0
   WeaponDamage: 20
-  RayDistance: 50
+  RayDistance: 10
 --- !u!114 &114949719688215940
 MonoBehaviour:
   m_ObjectHideFlags: 1
