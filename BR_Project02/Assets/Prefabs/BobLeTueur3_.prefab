@@ -359,7 +359,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1931492965216224}
   m_LocalRotation: {x: 0.0073051658, y: -0.00086687563, z: 0.40065214, w: -0.9162007}
-  m_LocalPosition: {x: -0.02, y: 1.37, z: -12.94}
+  m_LocalPosition: {x: 0, y: 1.27, z: -11.68}
   m_LocalScale: {x: 0.25377822, y: 0.27940053, z: 10}
   m_Children:
   - {fileID: 4582254114506008}
@@ -386,7 +386,7 @@ Transform:
   m_PrefabInternal: {fileID: 100100000}
   m_GameObject: {fileID: 1241992491178992}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.834451, y: 0.90953964, z: -5.191262}
+  m_LocalPosition: {x: -4.834451, y: 0.90953964, z: -2.31}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4942981340191548}
@@ -1397,9 +1397,10 @@ MonoBehaviour:
   PlayerHP: 100
   WeaponDamage: 20
   RayDistance: 10
-  Laser: {fileID: 1660500200853320, guid: 1adc91e652d1feb4087e25f71b60ca98, type: 2}
+  Laser: {fileID: 1931492965216224}
   HealthBar: {fileID: 114403315106762112, guid: 71bd1bff8011a14458935a4eda7288df,
     type: 2}
+  Img_Running: {fileID: 0}
 --- !u!124 &124664143504916596
 Behaviour:
   m_ObjectHideFlags: 1
