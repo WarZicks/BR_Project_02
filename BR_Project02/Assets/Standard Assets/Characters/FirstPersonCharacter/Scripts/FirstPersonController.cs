@@ -177,12 +177,9 @@ namespace UnityStandardAssets.Characters.FirstPerson
         [Command]
         public void CmdDie()
         {
-            if (isLocalPlayer)
-            {
                 Debug.Log("I'm dead");
                 NetworkServer.UnSpawn(gameObject);
                 Destroy(gameObject);
-            }
         }
 
 
