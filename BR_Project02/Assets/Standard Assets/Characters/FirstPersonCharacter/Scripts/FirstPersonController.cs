@@ -119,7 +119,6 @@ namespace UnityStandardAssets.Characters.FirstPerson
                 CmdDisplayLaserBeam();
                 if (Physics.Raycast(ray, out hit, 10f))
                 {
-                    Debug.Log("Raycast");
                     if (hit.collider.CompareTag("Opponent"))
                     {
                         Debug.Log("I shoot someone");
@@ -163,10 +162,10 @@ namespace UnityStandardAssets.Characters.FirstPerson
             {
                 Debug.Log("My HP: " + PlayerHP);
                 //FeedbackDamageUI();
-                if (myNewHp == 0)
-                {
-                    CmdDie();
-                }
+            }
+            if (myNewHp == 0)
+            {
+                CmdDie();
             }
         }
 
@@ -178,9 +177,12 @@ namespace UnityStandardAssets.Characters.FirstPerson
         [Command]
         public void CmdDie()
         {
-            Debug.Log("I'm dead");
-            NetworkServer.UnSpawn(gameObject);
-            Destroy(gameObject);
+            if (isLocalPlayer)
+            {
+                Debug.Log("I'm dead");
+                NetworkServer.UnSpawn(gameObject);
+                Destroy(gameObject);
+            }
         }
 
 
