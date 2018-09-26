@@ -162,10 +162,10 @@ namespace UnityStandardAssets.Characters.FirstPerson
             {
                 Debug.Log("My HP: " + PlayerHP);
                 //FeedbackDamageUI();
-            }
-            if (myNewHp == 0)
-            {
-                CmdDie();
+                if (myNewHp == 0)
+                {
+                    CmdDie();
+                }
             }
         }
 
