@@ -44,8 +44,8 @@ namespace UnityStandardAssets.Characters.FirstPerson
         private AudioSource m_AudioSource;
         public AudioListener myAL;
 
-        public  int MaxPlayerHP = 100;
-        [SyncVar (hook = "UpdateHP")] public int PlayerHP;
+        //public  int MaxPlayerHP = 100;
+        [SyncVar (hook = "UpdateHP")] public int PlayerHP = 100;
         public int WeaponDamage = 20;
         public float RayDistance;
 
@@ -69,9 +69,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
             m_NextStep = m_StepCycle/2f;
             m_Jumping = false;
             m_AudioSource = GetComponent<AudioSource>();
-			m_MouseLook.Init(transform , m_Camera.transform);
-            PlayerHP = MaxPlayerHP;
-
+            m_MouseLook.Init(transform, m_Camera.transform);
 
         }
 

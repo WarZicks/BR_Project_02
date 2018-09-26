@@ -634,8 +634,7 @@ MonoBehaviour:
   m_LandSound: {fileID: 8300000, guid: 3b09d59f4499d45428baa7a21e954296, type: 3}
   m_Camera: {fileID: 20555514245318020}
   myAL: {fileID: 81698898930377634}
-  MaxPlayerHP: 100
-  PlayerHP: 0
+  PlayerHP: 100
   WeaponDamage: 20
   RayDistance: 10
 --- !u!114 &114949719688215940
