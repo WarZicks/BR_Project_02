@@ -54,6 +54,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
         public float RayDistance;
         public GameObject Laser;
         public Image HealthBar;
+        public GameObject Img_Running;
 
         // Use this for initialization
         private void Start()
@@ -129,6 +130,15 @@ namespace UnityStandardAssets.Characters.FirstPerson
                 }
 
             }
+            if (!m_IsWalking)
+            {
+                Img_Running.SetActive(true);
+            }
+            else
+            {
+                Img_Running.SetActive(false);
+            }
+
         }
 
 

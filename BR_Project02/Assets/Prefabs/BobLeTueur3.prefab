@@ -788,6 +788,8 @@ MonoBehaviour:
   Laser: {fileID: 1146993940836372}
   HealthBar: {fileID: 114403315106762112, guid: 71bd1bff8011a14458935a4eda7288df,
     type: 2}
+  Img_Running: {fileID: 1401218683272044, guid: 71bd1bff8011a14458935a4eda7288df,
+    type: 2}
 --- !u!114 &114949719688215940
 MonoBehaviour:
   m_ObjectHideFlags: 1

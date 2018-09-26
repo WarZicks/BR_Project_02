@@ -244,7 +244,7 @@ MonoBehaviour:
   m_ShowLobbyGUI: 1
   m_MaxPlayers: 9
   m_MaxPlayersPerConnection: 1
-  m_MinPlayers: 2
+  m_MinPlayers: 1
   m_LobbyPlayerPrefab: {fileID: 114662421477827736, guid: ea5eacccf078f2247918c5bf454a4182,
     type: 2}
   m_GamePlayerPrefab: {fileID: 1448562870596952, guid: 5be8996abc7acf449811c922f5f79b41,
