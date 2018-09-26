@@ -119,6 +119,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
                 CmdDisplayLaserBeam();
                 if (Physics.Raycast(ray, out hit, 10f))
                 {
+                    Debug.Log("Raycast");
                     if (hit.collider.CompareTag("Opponent"))
                     {
                         Debug.Log("I shoot someone");
