@@ -5,6 +5,7 @@ using UnityEngine.Networking;
 using UnityStandardAssets.CrossPlatformInput;
 using UnityStandardAssets.Utility;
 using Random = UnityEngine.Random;
+using UnityEngine.UI;
 
 namespace UnityStandardAssets.Characters.FirstPerson
 {
@@ -45,17 +46,18 @@ namespace UnityStandardAssets.Characters.FirstPerson
         private AudioSource m_AudioSource;
         public AudioListener myAL;
 
-        //public  int MaxPlayerHP = 100;
+        public  int MaxPlayerHP = 100;
         [SyncVar (hook = "UpdateHP")]
         public int PlayerHP;
         public int WeaponDamage = 20;
         public float RayDistance;
         public GameObject Laser;
+        public Image HealthBar;
 
         // Use this for initialization
         private void Start()
         {
-            PlayerHP = 100;
+            PlayerHP = MaxPlayerHP;
             if (!isLocalPlayer)
             {
                 m_Camera.enabled = false;
@@ -160,7 +162,8 @@ namespace UnityStandardAssets.Characters.FirstPerson
         {
             if (isLocalPlayer)
             {
-                Debug.Log("My HP: " + PlayerHP);
+                HealthBar.fillAmount = (PlayerHP / MaxPlayerHP);
+                //Debug.Log("My HP: " + PlayerHP);
                 //FeedbackDamageUI();
                 if (myNewHp == 0)
                 {
