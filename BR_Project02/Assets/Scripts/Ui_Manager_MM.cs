@@ -8,6 +8,7 @@ public class Ui_Manager_MM : MonoBehaviour {
     public GameObject Jouer;
     public GameObject Quitter;
     public GameObject Network;
+    public GameObject Retour;
     // Use this for initialization
     void Start () {
 		
@@ -22,10 +23,20 @@ public class Ui_Manager_MM : MonoBehaviour {
         Jouer.SetActive(false);
         Quitter.SetActive(false);
         Network.SetActive(true);
+        Retour.SetActive(true);
+
     }
 
     public void OnclickExit()
     {
         Application.Quit();
+    }
+    public void OnClickReturn()
+    {
+        Jouer.SetActive(true);
+        Quitter.SetActive(true);
+        Network.SetActive(false);
+        Retour.SetActive(false);
+
     }
 }
