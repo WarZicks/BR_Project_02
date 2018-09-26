@@ -5464,11 +5464,6 @@ Prefab:
       propertyPath: m_RootOrder
       value: 2
       objectReference: {fileID: 0}
-    - target: {fileID: 111229761568794940, guid: 656736a041404f546bfa1f49ed287b72,
-        type: 2}
-      propertyPath: m_PlayAutomatically
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 656736a041404f546bfa1f49ed287b72, type: 2}
   m_IsPrefabAsset: 0
@@ -22881,7 +22876,7 @@ Transform:
   - {fileID: 546569174}
   - {fileID: 860534317}
   m_Father: {fileID: 0}
-  m_RootOrder: 21
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &949680475 stripped
 GameObject:
