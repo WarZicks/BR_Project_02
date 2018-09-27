@@ -193,7 +193,8 @@ namespace UnityStandardAssets.Characters.FirstPerson
         public void TakeDamage()
         {
             PlayerHP -= WeaponDamage;
-            ShowHurtScreen();
+            if(isLocalPlayer) ShowHurtScreen();
+
         }
 
         public void ShowHurtScreen()
