@@ -225,11 +225,10 @@ namespace UnityStandardAssets.Characters.FirstPerson
         public void CmdDie()
         {
                 UpdateNumberPlayers();
-                Debug.Log("I'm dead");
-                NetworkServer.UnSpawn(gameObject);
-                Destroy(gameObject);
-                Destroy(UI);
                 Instantiate(Loose_Screen);
+                NetworkServer.UnSpawn(gameObject);
+                //Destroy(gameObject);
+                //Destroy(UI);
         }
 
         void UpdateNumberPlayers()
