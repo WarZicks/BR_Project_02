@@ -51,7 +51,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
         public float PlayerHP;
         public int WeaponDamage = 20;
         public float RayDistance;
-        public GameObject Laser, HitMarker_Img, UI, Loose_Screen, Hurt_Screen;
+        public GameObject Laser, HitMarker_Img, UI, Loose_Screen, Hurt_Screen, Win_Screen;
         public Image HealthBar;
         private int number_Players;
         private int current_Players;
@@ -79,6 +79,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
             m_Jumping = false;
             m_AudioSource = GetComponent<AudioSource>();
             m_MouseLook.Init(transform, m_Camera.transform);
+
 
             number_Players = NetworkServer.connections.Count;
             Debug.Log(number_Players);
@@ -138,6 +139,11 @@ namespace UnityStandardAssets.Characters.FirstPerson
                     }
                 }
 
+            }
+
+            if (number_Players == 1 && gameObject.activeSelf)
+            {
+                Win_Screen.SetActive(true);
             }
             
         }
@@ -218,11 +224,18 @@ namespace UnityStandardAssets.Characters.FirstPerson
         [Command]
         public void CmdDie()
         {
+                UpdateNumberPlayers();
                 Debug.Log("I'm dead");
                 NetworkServer.UnSpawn(gameObject);
                 Destroy(gameObject);
                 Destroy(UI);
                 Instantiate(Loose_Screen);
+        }
+
+        void UpdateNumberPlayers()
+        {
+            number_Players--;
+            Number_Players_Text.text = number_Players.ToString();
         }
 
 
