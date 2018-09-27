@@ -58,6 +58,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
         public Text Number_Players_Text;
         public Animation ShotAnim;
 
+
         // Use this for initialization
         private void Start()
         {
