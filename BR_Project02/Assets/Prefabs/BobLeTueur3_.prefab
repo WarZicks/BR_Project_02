@@ -2125,6 +2125,7 @@ MonoBehaviour:
   Loose_Screen: {fileID: 1685805780205328}
   Hurt_Screen: {fileID: 1509041404659958}
   HealthBar: {fileID: 114466123174261002}
+  Number_Players_Text: {fileID: 114277474280695726}
 --- !u!114 &114626640713180676
 MonoBehaviour:
   m_ObjectHideFlags: 1

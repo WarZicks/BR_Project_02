@@ -55,6 +55,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
         public Image HealthBar;
         private int number_Players;
         private int current_Players;
+        public Text Number_Players_Text;
 
         // Use this for initialization
         private void Start()
@@ -79,8 +80,9 @@ namespace UnityStandardAssets.Characters.FirstPerson
             m_AudioSource = GetComponent<AudioSource>();
             m_MouseLook.Init(transform, m_Camera.transform);
 
-
-
+            number_Players = GameObject.FindGameObjectsWithTag("Opponent").Length + 1;
+            Debug.Log(number_Players);
+            Number_Players_Text.text = number_Players.ToString();
         }
 
         public override void OnStartLocalPlayer()
@@ -193,7 +195,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
         public void TakeDamage()
         {
             PlayerHP -= WeaponDamage;
-            if(isLocalPlayer) ShowHurtScreen();
+            //if(isLocalPlayer) ShowHurtScreen();
 
         }
 
