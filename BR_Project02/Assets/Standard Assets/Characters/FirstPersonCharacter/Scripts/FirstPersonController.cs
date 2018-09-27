@@ -51,7 +51,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
         public float PlayerHP;
         public int WeaponDamage = 20;
         public float RayDistance;
-        public GameObject Laser;
+        public GameObject Laser, HitMarker_Img, UI;
         public Image HealthBar;
 
         // Use this for initialization
@@ -65,7 +65,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
             }
             if (isLocalPlayer)
             {
-                gameObject.tag = "Untagged";
+                gameObject.tag = "Player";
             }
             m_CharacterController = GetComponent<CharacterController>();
             m_OriginalCameraPosition = m_Camera.transform.localPosition;
@@ -155,13 +155,14 @@ namespace UnityStandardAssets.Characters.FirstPerson
         public void CmdHitOpponent(GameObject opponent)
         {
             opponent.GetComponent<FirstPersonController>().TakeDamage();
+            ShowHitMarker();
         }
 
         public void UpdateHP(float myNewHp)
         {
             if (isLocalPlayer)
             {
-                HealthBar.fillAmount = (PlayerHP / MaxPlayerHP);
+                UpdateHealthBar();
                 Debug.Log("My HP: " + PlayerHP);
                 //FeedbackDamageUI();
                 if (myNewHp == 0)
@@ -169,6 +170,23 @@ namespace UnityStandardAssets.Characters.FirstPerson
                     CmdDie();
                 }
             }
+        }
+
+        public void UpdateHealthBar()
+        {
+            HealthBar.fillAmount = (PlayerHP / MaxPlayerHP);
+        }
+
+        public void ShowHitMarker()
+        {
+            HitMarker_Img.SetActive(true);
+            StartCoroutine(HideHitMarker());
+        }
+
+        public IEnumerator HideHitMarker()
+        {
+            yield return new WaitForSeconds(0.2f);
+            HitMarker_Img.SetActive(false);
         }
 
         public void TakeDamage()
@@ -182,6 +200,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
                 Debug.Log("I'm dead");
                 NetworkServer.UnSpawn(gameObject);
                 Destroy(gameObject);
+                UI.SetActive(false);
         }
 
 
@@ -365,7 +384,15 @@ namespace UnityStandardAssets.Characters.FirstPerson
             body.AddForceAtPosition(m_CharacterController.velocity*0.1f, hit.point, ForceMode.Impulse);
         }
 
-        
+        private void OnTriggerEnter(Collider other)
+        {
+            if(other.gameObject.tag == "DeathZone")
+            {
+                PlayerHP = 0;
+                UI.SetActive(false);
+            }
+        }
+
     }
 
     
