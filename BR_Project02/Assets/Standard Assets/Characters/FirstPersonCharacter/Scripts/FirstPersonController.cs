@@ -80,15 +80,19 @@ namespace UnityStandardAssets.Characters.FirstPerson
             m_AudioSource = GetComponent<AudioSource>();
             m_MouseLook.Init(transform, m_Camera.transform);
 
-            number_Players = GameObject.FindGameObjectsWithTag("Opponent").Length + 1;
+            number_Players = NetworkServer.connections.Count;
             Debug.Log(number_Players);
+            Number_Players_Text.text = "";
             Number_Players_Text.text = number_Players.ToString();
+
+            
         }
 
         public override void OnStartLocalPlayer()
         {
             myAL.enabled = true;
         }
+        
 
         // Update is called once per frame
         private void Update()
