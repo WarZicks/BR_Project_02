@@ -493,6 +493,7 @@ MonoBehaviour:
   Quitter: {fileID: 557652261}
   Network: {fileID: 37970451}
   Retour: {fileID: 1698906229}
+  PauseMenu: {fileID: 0}
 --- !u!1 &534669902
 GameObject:
   m_ObjectHideFlags: 0

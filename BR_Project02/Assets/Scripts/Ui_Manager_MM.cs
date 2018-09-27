@@ -10,6 +10,7 @@ public class Ui_Manager_MM : NetworkBehaviour {
     public GameObject Quitter;
     public GameObject Network;
     public GameObject Retour;
+    public GameObject PauseMenu; 
 
     // Use this for initialization
     void Start () {
@@ -18,7 +19,10 @@ public class Ui_Manager_MM : NetworkBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            PauseMenu.SetActive(true);
+        }
 	}
     public void OnClick()
     {
@@ -40,5 +44,10 @@ public class Ui_Manager_MM : NetworkBehaviour {
         Network.SetActive(false);
         Retour.SetActive(false);
 
+    }
+
+    public void OnClickResume()
+    {
+        PauseMenu.SetActive(false);
     }
 }
