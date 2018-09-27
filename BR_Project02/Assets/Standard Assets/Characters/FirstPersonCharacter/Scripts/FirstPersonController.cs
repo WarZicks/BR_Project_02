@@ -161,7 +161,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
         {
             if (isLocalPlayer)
             {
-                //HealthBar.fillAmount = (PlayerHP / MaxPlayerHP);
+                HealthBar.fillAmount = (PlayerHP / MaxPlayerHP);
                 Debug.Log("My HP: " + PlayerHP);
                 //FeedbackDamageUI();
                 if (myNewHp == 0)
