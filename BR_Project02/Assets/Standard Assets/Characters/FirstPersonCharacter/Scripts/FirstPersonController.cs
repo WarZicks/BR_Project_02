@@ -56,6 +56,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
         private int number_Players;
         private int current_Players;
         public Text Number_Players_Text;
+        public Animation ShotAnim;
 
         // Use this for initialization
         private void Start()
@@ -130,6 +131,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
             {
                 RaycastHit hit;
                 CmdDisplayLaserBeam();
+                ShotAnim.Play();
                 if (Physics.Raycast(ray, out hit, 10f))
                 {
                     if (hit.collider.CompareTag("Opponent"))

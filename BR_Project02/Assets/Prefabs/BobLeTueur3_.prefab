@@ -252,6 +252,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 4638903204965536}
+  - component: {fileID: 111212071337363322}
+  - component: {fileID: 95178672622460730}
   m_Layer: 0
   m_Name: model_1887
   m_TagString: Untagged
@@ -1734,6 +1736,39 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
+--- !u!95 &95178672622460730
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1226449790491596}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 430fa2c37a7991142ab77a340106694d, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!111 &111212071337363322
+Animation:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1226449790491596}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Animation: {fileID: 7400000, guid: 20a00d966e81a4546b33102f4de84d88, type: 2}
+  m_Animations:
+  - {fileID: 7400000, guid: 20a00d966e81a4546b33102f4de84d88, type: 2}
+  m_WrapMode: 0
+  m_PlayAutomatically: 1
+  m_AnimatePhysics: 0
+  m_CullingType: 0
 --- !u!114 &114017556358251722
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2499,6 +2534,7 @@ MonoBehaviour:
   Win_Screen: {fileID: 1369844617760052}
   HealthBar: {fileID: 114466123174261002}
   Number_Players_Text: {fileID: 114277474280695726}
+  ShotAnim: {fileID: 111212071337363322}
 --- !u!114 &114626640713180676
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -2821,6 +2857,7 @@ MonoBehaviour:
   Network: {fileID: 0}
   Retour: {fileID: 0}
   PauseMenu: {fileID: 1836753745871188}
+  is_Paused: 0
 --- !u!124 &124535110381153592
 Behaviour:
   m_ObjectHideFlags: 1
