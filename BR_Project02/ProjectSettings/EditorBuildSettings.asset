@@ -23,4 +23,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Level_paul.unity
     guid: 24bdd961645534749a5177f236a10684
+  - enabled: 1
+    path: Assets/Scenes/Level_theo.unity
+    guid: e7065c41890e1524fb609afd5b57980e
   m_configObjects: {}

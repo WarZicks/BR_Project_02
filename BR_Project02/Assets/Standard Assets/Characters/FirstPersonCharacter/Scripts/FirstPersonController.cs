@@ -124,6 +124,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
                     if (hit.collider.CompareTag("Opponent"))
                     {
                         CmdHitOpponent(hit.collider.gameObject);
+                        ShowHitMarker();
                     }
                 }
 
@@ -155,7 +156,6 @@ namespace UnityStandardAssets.Characters.FirstPerson
         public void CmdHitOpponent(GameObject opponent)
         {
             opponent.GetComponent<FirstPersonController>().TakeDamage();
-            ShowHitMarker();
         }
 
         public void UpdateHP(float myNewHp)

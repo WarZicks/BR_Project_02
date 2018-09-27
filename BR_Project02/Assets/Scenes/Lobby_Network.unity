@@ -250,7 +250,7 @@ MonoBehaviour:
   m_GamePlayerPrefab: {fileID: 1241992491178992, guid: 7f81d5fb00abbda4aac0d28e13ee2ed8,
     type: 2}
   m_LobbyScene: Lobby_Network
-  m_PlayScene: Level_paul
+  m_PlayScene: Level_theo
   lobbySlots: []
 --- !u!1 &170076733
 GameObject:
