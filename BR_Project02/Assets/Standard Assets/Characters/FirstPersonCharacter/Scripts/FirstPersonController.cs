@@ -227,7 +227,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
                 UpdateNumberPlayers();
                 Instantiate(Loose_Screen);
                 NetworkServer.UnSpawn(gameObject);
-                //Destroy(gameObject);
+                Destroy(gameObject);
                 //Destroy(UI);
         }
 
