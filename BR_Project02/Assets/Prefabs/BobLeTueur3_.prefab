@@ -359,7 +359,7 @@ GameObject:
   - component: {fileID: 114046944672922696}
   - component: {fileID: 136845503135862786}
   m_Layer: 0
-  m_Name: BobLeTueur3_ 1
+  m_Name: BobLeTueur3_
   m_TagString: Opponent
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1784,6 +1784,8 @@ MonoBehaviour:
   Laser: {fileID: 1039273420671238}
   HitMarker_Img: {fileID: 1677452184877326}
   UI: {fileID: 1597190562444862}
+  Loose_Screen: {fileID: 0}
+  Hurt_Screen: {fileID: 0}
   HealthBar: {fileID: 114997619240996046}
 --- !u!114 &114761106396355250
 MonoBehaviour:

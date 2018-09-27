@@ -47,12 +47,14 @@ namespace UnityStandardAssets.Characters.FirstPerson
         public AudioListener myAL;
 
         public  float MaxPlayerHP = 100;
-        [SyncVar (hook = "UpdateHP")]
+        [SyncVar(hook ="UpdateHP")]
         public float PlayerHP;
         public int WeaponDamage = 20;
         public float RayDistance;
-        public GameObject Laser, HitMarker_Img, UI;
+        public GameObject Laser, HitMarker_Img, UI, Loose_Screen, Hurt_Screen;
         public Image HealthBar;
+        private int number_Players;
+        private int current_Players;
 
         // Use this for initialization
         private void Start()
@@ -76,6 +78,8 @@ namespace UnityStandardAssets.Characters.FirstPerson
             m_Jumping = false;
             m_AudioSource = GetComponent<AudioSource>();
             m_MouseLook.Init(transform, m_Camera.transform);
+
+
 
         }
 
@@ -129,6 +133,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
                 }
 
             }
+            
         }
 
 
@@ -163,6 +168,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
             if (isLocalPlayer)
             {
                 HealthBar.fillAmount = (myNewHp / MaxPlayerHP);
+
                 Debug.Log("My HP: " + myNewHp);
                 //FeedbackDamageUI();
                 if (myNewHp == 0)
@@ -187,6 +193,19 @@ namespace UnityStandardAssets.Characters.FirstPerson
         public void TakeDamage()
         {
             PlayerHP -= WeaponDamage;
+            ShowHurtScreen();
+        }
+
+        public void ShowHurtScreen()
+        {
+            Hurt_Screen.SetActive(true);
+            HideHurtScreen();
+        }
+
+        public IEnumerator HideHurtScreen()
+        {
+            yield return new WaitForSeconds(0.5f);
+            Hurt_Screen.SetActive(false);
         }
 
         [Command]
@@ -195,7 +214,8 @@ namespace UnityStandardAssets.Characters.FirstPerson
                 Debug.Log("I'm dead");
                 NetworkServer.UnSpawn(gameObject);
                 Destroy(gameObject);
-                UI.SetActive(false);
+                Destroy(UI);
+                Instantiate(Loose_Screen);
         }
 
 
@@ -384,7 +404,6 @@ namespace UnityStandardAssets.Characters.FirstPerson
             if(other.gameObject.tag == "DeathZone")
             {
                 PlayerHP = 0;
-                UI.SetActive(false);
             }
         }
 
