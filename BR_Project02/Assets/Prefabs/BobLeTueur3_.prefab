@@ -2801,7 +2801,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   Snd_Shotgun: {fileID: 8300000, guid: 05d20f2b7aab3ef42b74d4772b7b3768, type: 3}
-  Snd_Impact: {fileID: 8300000, guid: 5dd11bd2d2d6cbc42a103c61e9fbd937, type: 3}
+  Snd_Impact: {fileID: 8300000, guid: 45479ab0ca2ccb340a87c7174273356a, type: 3}
+  Snd_TakeDamage: {fileID: 8300000, guid: 5dd11bd2d2d6cbc42a103c61e9fbd937, type: 3}
 --- !u!114 &114838178607828562
 MonoBehaviour:
   m_ObjectHideFlags: 1

@@ -10,6 +10,8 @@ public class SoundManager : MonoBehaviour {
 
     public AudioClip Snd_Shotgun;
     public AudioClip Snd_Impact;
+    public AudioClip Snd_TakeDamage;
+
 
 
     // Use this for initialization
@@ -33,5 +35,12 @@ public class SoundManager : MonoBehaviour {
     {
         AudioSource.clip = Snd_Impact;
         AudioSource.Play();
+    }
+
+    public void TakeDamage_Feedback()
+    {
+        AudioSource.clip = Snd_TakeDamage;
+        AudioSource.Play();
+
     }
 }

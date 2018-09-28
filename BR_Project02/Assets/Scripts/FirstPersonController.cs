@@ -198,19 +198,20 @@ namespace UnityStandardAssets.Characters.FirstPerson
         public void ShowHitMarker()
         {
             HitMarker_Img.SetActive(true);
-            my_SM.Impact_Feedback();
             StartCoroutine(HideHitMarker());
         }
 
         public IEnumerator HideHitMarker()
         {
             yield return new WaitForSeconds(0.2f);
+            my_SM.Impact_Feedback();
             HitMarker_Img.SetActive(false);
         }
 
         public void TakeDamage()
         {
             PlayerHP -= WeaponDamage;
+            my_SM.TakeDamage_Feedback();
             //if(isLocalPlayer) ShowHurtScreen();
 
         }
