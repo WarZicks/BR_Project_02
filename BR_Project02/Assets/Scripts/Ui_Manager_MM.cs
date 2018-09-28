@@ -5,7 +5,7 @@ using UnityEngine.Networking;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public class Ui_Manager_MM : NetworkBehaviour {
+public class Ui_Manager_MM : MonoBehaviour {
     public GameObject Jouer;
     public GameObject Quitter;
     public GameObject Network;

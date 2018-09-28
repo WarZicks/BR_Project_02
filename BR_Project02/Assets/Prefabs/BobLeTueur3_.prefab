@@ -166,7 +166,6 @@ GameObject:
   - component: {fileID: 223869166370461248}
   - component: {fileID: 114550387593417078}
   - component: {fileID: 114931365169508192}
-  - component: {fileID: 114419972703499154}
   - component: {fileID: 114936086480371804}
   m_Layer: 5
   m_Name: UIManager
@@ -2270,38 +2269,6 @@ MonoBehaviour:
     m_VerticalOverflow: 0
     m_LineSpacing: 1
   m_Text: 'Joueurs restants: '
---- !u!114 &114419972703499154
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 100100000}
-  m_GameObject: {fileID: 1169487951671038}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 372142912, guid: dc443db3e92b4983b9738c1131f555cb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SceneId:
-    m_Value: 0
-  m_AssetId:
-    i0: 107
-    i1: 88
-    i2: 212
-    i3: 129
-    i4: 183
-    i5: 240
-    i6: 104
-    i7: 132
-    i8: 201
-    i9: 235
-    i10: 8
-    i11: 159
-    i12: 247
-    i13: 59
-    i14: 174
-    i15: 233
-  m_ServerOnly: 0
-  m_LocalPlayerAuthority: 0
 --- !u!114 &114466123174261002
 MonoBehaviour:
   m_ObjectHideFlags: 1
