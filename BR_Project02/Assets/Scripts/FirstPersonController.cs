@@ -185,6 +185,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
             if (isLocalPlayer)
             {
                 HealthBar.fillAmount = (myNewHp / MaxPlayerHP);
+                my_SM.TakeDamage_Feedback();
 
                 Debug.Log("My HP: " + myNewHp);
                 //FeedbackDamageUI();
@@ -211,7 +212,6 @@ namespace UnityStandardAssets.Characters.FirstPerson
         public void TakeDamage()
         {
             PlayerHP -= WeaponDamage;
-            my_SM.TakeDamage_Feedback();
             //if(isLocalPlayer) ShowHurtScreen();
 
         }
