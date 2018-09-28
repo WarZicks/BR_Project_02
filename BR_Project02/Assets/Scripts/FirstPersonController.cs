@@ -51,13 +51,14 @@ namespace UnityStandardAssets.Characters.FirstPerson
         public float PlayerHP;
         public int WeaponDamage = 20;
         public float RayDistance;
-        public GameObject Laser, HitMarker_Img, UI, Loose_Screen, Hurt_Screen, Win_Screen;
+        public GameObject Shoot_Feedback, HitMarker_Img, UI, Loose_Screen, Hurt_Screen, Win_Screen;
         public Image HealthBar;
         private int number_Players;
         private int current_Players;
         public Text Number_Players_Text;
         public Animation ShotAnim;
         public SoundManager my_SM;
+        private GameObject MainCamera;
 
         // Use this for initialization
         private void Start()
@@ -95,6 +96,8 @@ namespace UnityStandardAssets.Characters.FirstPerson
         {
             myAL.enabled = true;
             UI.SetActive(true);
+            MainCamera = GameObject.FindGameObjectWithTag("MainCamera");
+            Debug.Log(MainCamera.name);
         }
         
 
@@ -164,13 +167,13 @@ namespace UnityStandardAssets.Characters.FirstPerson
         [ClientRpc]
         public void RpcShowMyBeam()
         {
-            Laser.SetActive(true);
+            Shoot_Feedback.SetActive(true);
             StartCoroutine(HideMyBeam());
         }
         public IEnumerator HideMyBeam()
         {
             yield return new WaitForSeconds(0.2f);
-            Laser.SetActive(false);
+            Shoot_Feedback.SetActive(false);
         }
 
 
@@ -185,7 +188,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
             if (isLocalPlayer)
             {
                 HealthBar.fillAmount = (myNewHp / MaxPlayerHP);
-                my_SM.TakeDamage_Feedback();
+                //my_SM.TakeDamage_Feedback();
 
                 Debug.Log("My HP: " + myNewHp);
                 //FeedbackDamageUI();
@@ -232,9 +235,11 @@ namespace UnityStandardAssets.Characters.FirstPerson
         public void CmdDie()
         {
                 UpdateNumberPlayers();
+                MainCamera.SetActive(true);
                 Instantiate(Loose_Screen);
                 NetworkServer.UnSpawn(gameObject);
                 Destroy(gameObject);
+
                 //Destroy(UI);
         }
 
