@@ -57,7 +57,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
         private int current_Players;
         public Text Number_Players_Text;
         public Animation ShotAnim;
-
+        public SoundManager my_SM;
 
         // Use this for initialization
         private void Start()
@@ -133,6 +133,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
                 RaycastHit hit;
                 CmdDisplayLaserBeam();
                 ShotAnim.Play();
+                my_SM.Shotgun_Feedback();
                 if (Physics.Raycast(ray, out hit, 10f))
                 {
                     if (hit.collider.CompareTag("Opponent"))
@@ -182,7 +183,8 @@ namespace UnityStandardAssets.Characters.FirstPerson
         {
             if (isLocalPlayer)
             {
-                HealthBar.fillAmount = (myNewHp / MaxPlayerHP);
+                PlayerHP = myNewHp;
+                HealthBar.fillAmount = PlayerHP * 0.2f;
 
                 Debug.Log("My HP: " + myNewHp);
                 //FeedbackDamageUI();
@@ -196,6 +198,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
         public void ShowHitMarker()
         {
             HitMarker_Img.SetActive(true);
+            my_SM.Impact_Feedback();
             StartCoroutine(HideHitMarker());
         }
 
@@ -236,7 +239,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
 
         void UpdateNumberPlayers()
         {
-            number_Players--;
+            number_Players = NetworkServer.connections.Count;
             Number_Players_Text.text = number_Players.ToString();
         }
 
