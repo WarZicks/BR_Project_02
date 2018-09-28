@@ -234,9 +234,9 @@ namespace UnityStandardAssets.Characters.FirstPerson
         [Command]
         public void CmdDie()
         {
-                UpdateNumberPlayers();
-                MainCamera.SetActive(true);
-                Instantiate(Loose_Screen);
+                //UpdateNumberPlayers();
+                //MainCamera.SetActive(true);
+                //Instantiate(Loose_Screen);
                 NetworkServer.UnSpawn(gameObject);
                 Destroy(gameObject);
 
