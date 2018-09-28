@@ -194,7 +194,10 @@ namespace UnityStandardAssets.Characters.FirstPerson
                 //FeedbackDamageUI();
                 if (myNewHp == 0)
                 {
-                    CmdDie();
+                    //CmdDie();
+                    Instantiate(Loose_Screen);
+                    NetworkServer.UnSpawn(gameObject);
+                    Destroy(gameObject);
                 }
             }
         }
@@ -236,7 +239,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
         {
                 //UpdateNumberPlayers();
                 //MainCamera.SetActive(true);
-                //Instantiate(Loose_Screen);
+                Instantiate(Loose_Screen);
                 NetworkServer.UnSpawn(gameObject);
                 Destroy(gameObject);
 
