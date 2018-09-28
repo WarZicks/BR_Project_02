@@ -20,12 +20,14 @@ public class Ui_Manager_MM : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
+        /*
         if (Input.GetKeyUp(KeyCode.Escape))
         {
             PauseMenu.SetActive(true);
             is_Paused = true;
             Time.timeScale = 0;
         }
+        */
 	}
     public void OnClick()
     {

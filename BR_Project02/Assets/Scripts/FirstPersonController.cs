@@ -94,6 +94,7 @@ namespace UnityStandardAssets.Characters.FirstPerson
         public override void OnStartLocalPlayer()
         {
             myAL.enabled = true;
+            UI.SetActive(true);
         }
         
 
@@ -183,7 +184,6 @@ namespace UnityStandardAssets.Characters.FirstPerson
         {
             if (isLocalPlayer)
             {
-                //PlayerHP = myNewHp;
                 HealthBar.fillAmount = (myNewHp / MaxPlayerHP);
 
                 Debug.Log("My HP: " + myNewHp);
